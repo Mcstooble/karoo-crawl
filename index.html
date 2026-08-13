@@ -1,0 +1,891 @@
+<title>Karoo Crawl — Tankwa, 21 August 2026</title>
+
+<style>
+/* ============================================================
+   KAROO CRAWL — Edition 01
+   One visual world: the dawn stretch, 05:58 → 07:40.
+   Opens in the violet with the stars still out, ends in full
+   Karoo daylight. Deliberately single-theme — every colour is
+   painted explicitly so the page holds on any host ground.
+   ============================================================ */
+
+/* ============================ NIGHTY ============================
+   Embedded as a data: URI — the artifact CSP blocks every external
+   host, so a linked font file would simply never load. 17KB source.
+   Licence: DEMO, personal use only. See notes. */
+@font-face{
+  font-family: "Nighty DEMO";
+  font-style: normal; font-weight: 400; font-display: block;
+  src: url(data:font/otf;base64,T1RUTwAMAIAAAwBAQ0ZGILo80LUAACoEAAAZ/kdQT1O2DsasAAAbCAAADghHU1VCTQpVWwAAKRAAAADyT1MvMoEfbRgAAAEwAAAAYGNtYXAF8qf7AAAFXAAAAXJoZWFkIS8TcAAAAMwAAAA2aGhlYQqkCRUAAAEEAAAAJGhtdHhz0/50AAAG0AAAAPBrZXJue0GBzAAAB+AAABMmbWF4cAA8UAAAAAEoAAAABm5hbWVEmFoXAAABkAAAA8lwb3N0/7gAMgAAB8AAAAAgAAEAAAABAAClFHPdXw889QADA+gAAAAA3HhgTQAAAADcj3Ac/y3/jwnjApgAAAADAAIAAAAAAAAAAQAAAoT/j/8NCgD/Lf9JCeMAAQAAAAAAAAAAAAAAAAAAADwAAFAAADwAAAADAe4BkAAFAAACigJYAAAASwKKAlgAAAFeADIBPAAAAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAABweXJzAEAAAOBdAwX/Hf8NA3cAcQAAAAEAAAAAAg8C3QAgACAABgAAABsBSgABAAAAAAAAADoAAAABAAAAAAABAAsAOgABAAAAAAACAAcARQABAAAAAAADACAATAABAAAAAAAEAAsAOgABAAAAAAAFAAUAbAABAAAAAAAGAAoAcQABAAAAAAAHAC0AewABAAAAAAAIAA4AqAABAAAAAAAJAB8AtgABAAAAAAAKADoAAAABAAAAAAAQAAsAOgABAAAAAAARAAcARQABAAAAAAASAAsAOgADAAEECQAAAHQA1QADAAEECQABABYBSQADAAEECQACAA4BXwADAAEECQADAEABbQADAAEECQAEABQBrQADAAEECQAFAAoBwQADAAEECQAGABQBrQADAAEECQAHAFoBywADAAEECQAIABwCJQADAAEECQAJAD4CQQADAAEECQAKAHQA1QADAAEECQAQABYBSQADAAEECQARAA4BX0NvcHlyaWdodCAoYykgMjAyMSBieSBEaGFybWFzIFN0dWRpby4gQWxsIHJpZ2h0cyByZXNlcnZlZC5OaWdodHkgREVNT1JlZ3VsYXJEaGFybWFzU3R1ZGlvOiBOaWdodHkgREVNTzogMjAyMTEuMDAwTmlnaHR5REVNT05pZ2h0eSBERU1PIGlzIGEgdHJhZGVtYXJrIG9mIERoYXJtYXMgU3R1ZGlvLkRoYXJtYXMgU3R1ZGlvSmFtYWx1ZGluIEFobWFkIFNhaGVzdHlhIERoYXJtYQBDAG8AcAB5AHIAaQBnAGgAdAAgACgAYwApACAAMgAwADIAMQAgAGIAeQAgAEQAaABhAHIAbQBhAHMAIABTAHQAdQBkAGkAbwAuACAAQQBsAGwAIAByAGkAZwBoAHQAcwAgAHIAZQBzAGUAcgB2AGUAZAAuAE4AaQBnAGgAdAB5ACAARABFAE0ATwBSAGUAZwB1AGwAYQByAEQAaABhAHIAbQBhAHMAUwB0AHUAZABpAG8AOgAgAE4AaQBnAGgAdAB5ACAARABFAE0ATwA6ACAAMgAwADIAMQBOAGkAZwBoAHQAeQBEAEUATQBPADEALgAwADAAMABOAGkAZwBoAHQAeQAgAEQARQBNAE8AIABpAHMAIABhACAAdAByAGEAZABlAG0AYQByAGsAIABvAGYAIABEAGgAYQByAG0AYQBzACAAUwB0AHUAZABpAG8ALgBEAGgAYQByAG0AYQBzACAAUwB0AHUAZABpAG8ASgBhAG0AYQBsAHUAZABpAG4AIABBAGgAbQBhAGQAIABTAGEAaABlAHMAdAB5AGEAIABEAGgAYQByAG0AYQAAAAAAAAMAAAADAAABCgABAAAAAAAcAAMAAQAAAQoABgDuAAAACQByAAMAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaABsAHAAdAB4AHwAgACEAIgAjACQAJQAmACcAKAApACoAKwAsAC0ALgAvADAAMQAyADMAAAAAAAAAAAAAAAAAOAA5ADoANAAEAAUABgAHAAgACQAKAAsADAANAA4ADwAQABEAEgATABQAFQAWABcAGAAZAAQAaAAAABYAEAADAAYAAAANACAAWgBjAGQAeuAN4C/gXf//AAAAAAANACAAQQBhAGQAZeAN4C/gXf//AAH/9f/j/9n/1//Q/58gKCAHH9oAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACJAAAAAAAAAIkAAACJAAABlwAAARQAAAHn//gB+AAAAOX//wDq/y0B2wAAANkAAAK3AAAB5wAAAaQAAAHwAAAB7gAAAaQAAAGBAAABRgAAAd4AAAHF//8CuP//AaD//wHK/+sBoAAAAi4AAAH/AAACJgAAAiYAAAHVAAABiAAAAjUAAAImAAAA6AAAAb7//wIEAAAB4gAAArsAAAIqAAACWwAAAc4AAAJZAAACBgAAAeIAAAHIAAACSgAAAd8AAALh//8CEAAAAaj//wHr//8B8AAAAuoAAAHhAAACs/9sAcEAAAHrAAABlQAACgAAAAADAAAAAAAA/7UAMgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAEyIAAQMuDAAACQcUAAQAE//0AAQAFP/pAAQAFf/0AAQAFv/0AAQAGP/uAAUABP/6AAUAEP/0AAYABP/6AAYACQAjAAYADP/6AAYAEP/6AAYAE//0AAYAFP/uAAYAFf/6AAYAFv/pAAYAOP/0AAcABP/1AAcABv/1AAcACP/0AAcADv/vAAcAD//6AAcAE//dAAcAFP/dAAcAFf/dAAcAFv/dAAcAGP/pAAcANP/0AAcAN//LAAcAOv/0AAgANv/xAAkACQAdAAoABP/6AAoADv/6AAoAD//0AAoAE//oAAoAFP/uAAoAFf/oAAoAFv/dAAoAGP/vAAoAOv/6AAsABP/6AAsAFP/uAAsAFf/uAAsAFv/pAAsAGP/0AAwABP/0AAwABv/0AAwADv/1AAwAE//XAAwAFP/oAAwAFf/XAAwAFv/uAAwAGP/jAA0ABP/0AA0ABf/0AA0ABv/6AA0ACP/0AA0ADf/7AA0ADv/uAA0AE//dAA0AFP/cAA0AFf/cAA0AFv/XAA0AGP/dAA0ANP/6AA0AOv/1AA4ABf/6AA4AFP/uAA4AFf/pAA4AFv/pAA4AF//oAA8AB//0AA8ACv/0AA8AE//oAA8AFP/0AA8AFf/uAA8AFv/oAA8AGP/oAA8AOP/6ABAACQAYABAAGAAYABEABP/0ABEABv/0ABEAB//pABEACv/1ABEADv/vABEAEP/0ABEAEv/7ABEAGf/0ABEANP/0ABEAOP/oABEAOf/0ABEAOv/vABMABP/6ABMABv/uABMAE//uABMAFP/0ABMAFf/vABMAFv/1ABMAGP/6ABQABP/pABQABf/oABQABv/jABQACP/0ABQADv/uABQAD//oABQAEP/vABQAEf/6ABQAE//XABQAFP/XABQAFf/jABQAFv/uABQAGP/vABQANP/vABQAOP/1ABQAOv/iABUABP/jABUABv/0ABUAB//0ABUAC//uABUADv/oABUAEP/pABUAEv/uABUANP/jABUAOP/cABUAOf/uABUAOv/dABYABP/iABYABv/0ABYAB//vABYACv/vABYAC//uABYADv/pABYAEP/jABYAEv/7ABYANP/dABYAOP/jABYAOf/1ABYAOv/pABcADv/vABcAOv/1ABgABP/iABgABv/pABgAB//6ABgACQApABgADv/jABgAEP/0ABgAEv/1ABgANP/pABgAOP/pABgAOf/uABgAOv/dABkADv/6ABkAFf/7ABoABP/jABoABf/oABoABv/jABoACf/iABoADv/0ABoAD//uABoAEP/pABoAE//FABoAFP/RABoAFf+uABoAFv+uABoAGP+uABoAHP/LABoAIP/LABoAI//vABoAKP/LABoAKv/dABoALf95ABoALv/RABoAL/+FABoAMP+FABoAMv+EABoAM//uABoANP/oABoAOP/6ABoAOv/vABsABf/0ABsADP/6ABsADf/0ABsAD//0ABsAEf/6ABsAEv/0ABsAE//iABsAFP/pABsAFf/iABsAFv/dABsAF//1ABsAGP/XABsAGf/6ABsAGv/uABsAHP/1ABsAIP/0ABsAJv/1ABsAKP/0ABsALf/iABsAL/+/ABsAMP/FABsAMf/7ABsAMv/LABsAM//uABwABf/6ABwAEf/6ABwAE//vABwAFP/0ABwAFf/oABwAFv/pABwAF//0ABwAGP/pABwAGv/oABwAGwARABwAIP/6ABwAIQAGABwAJv/vABwAJ//0ABwAKP/0ABwALf/6ABwAL//oABwAMf/6ABwAMv/0AB0AB//0AB0ACv/6AB0AC//0AB0AGv+6AB0AHv/0AB0AH//0AB0AIf/6AB0AIv/0AB0AI//uAB0AJP/oAB0AJf/uAB0AJv/dAB0AJ//XAB0AKf/1AB0AK//6AB0ALf/1AB0ALv/oAB0AL//FAB0AMP/AAB0AMf/XAB0AMv/AAB0AM//dAB0AOP/vAB0AOf/7AB4ACf/6AB4ADv/vAB4AD//6AB4AEP/0AB4AE//XAB4AFP/dAB4AFf/RAB4AFv/FAB4AGP/RAB4AHP/iAB4AHgALAB4AIP/uAB4AIQAGAB4AIgAMAB4AJQAGAB4AKP/iAB4AKv/iAB8ABwBGAB8ACgBGAB8ACwBGAB8ADv/0AB8AEP/6AB8AGv+/AB8AGwBeAB8AHAAjAB8AHQBNAB8AHgBMAB8AHwBSAB8AIAAeAB8AIQBGAB8AIgBSAB8AI//oAB8AJABSAB8AJQBMAB8AJgAdAB8AJwA7AB8AKAAeAB8AKQBMAB8AKgAjAB8AKwBHAB8ALAA7AB8ALQBNAB8ALgBGAB8ALwBNAB8AMABBAB8AMQBGAB8AMgBHAB8AMwBSAB8AOP/jAB8AOQBMACAAE//0ACAAFP/vACAAFf/uACAAFv/uACAAGP/vACAAGv/1ACAAHwAGACAAIgAFACAAJv/6ACAAJ//6ACAALf/vACAALv/7ACAAL//dACAAMP/oACAAMv/iACAAM//0ACEADv/6ACEAE//pACEAFP/oACEAFf/pACEAFv/pACEAGP/uACEAGwALACEAHQAMACEAHgASACEAIP/0ACEAIQALACEAIgAGACEAJAALACEAJQAGACEAKP/0ACEAKQAMACEAKwAGACEALAAMACEALgAGACIABP/6ACIABf/0ACIABv/0ACIADv/6ACIAD//1ACIAE//vACIAFP/vACIAFf/vACIAFv/pACIAGP/uACIAHgAFACIAIP/1ACIAIQALACIAI//6ACIAJAAFACIAKv/0ACIAKwAGACIANP/0ACIAOv/6ACMABwAXACMACAAGACMACQAMACMACgASACMACwARACMAGv/jACMAGwAYACMAHQAdACMAHgAdACMAHwAeACMAIQAeACMAIgAXACMAJAASACMAJQAXACMAJv/1ACMAKQAdACMAKwAdACMALQARACMALgAYACMALwASACMAMAAYACMAMQAdACMAMgARACMAMwAXACMAOQAXACQABP/uACQABf/vACQABv/pACQACP/1ACQACf/6ACQADv/0ACQAD//6ACQAEP/1ACQAE//XACQAFP/dACQAFf/FACQAFv/LACQAGP/XACQAGf/6ACQAHP/pACQAIP/oACQAI//6ACQAKP/dACQAKQAFACQAKv/vACQALf/6ACQALv/6ACQAL//6ACQANP/0ACQAOv/0ACUABf/0ACUACP/vACUACf/0ACUAD//6ACUAE//XACUAFP/jACUAFf+0ACUAFv+0ACUAF//1ACUAGP/MACUAGv/0ACUAHP/uACUAIP/pACUAJ//6ACUAKP/pACUAKv/uACUALf9QACUALv/XACUAL/9uACUAMP9/ACUAMf/7ACUAMv96ACUAM//vACYABP/uACYABf/6ACYABv/1ACYACf/6ACYADv/vACYAE//cACYAFP/uACYAFf/iACYAFv/dACYAGP/jACYAHP/uACYAHgAGACYAIP/0ACYAI//6ACYAKP/vACYAKv/pACYALf/dACYAL//oACYAMP/jACYAMv/0ACYANP/6ACYAOv/0ACcABP/0ACcABv/0ACcABwASACcACAAGACcACgARACcACwARACcADv/0ACcAD//6ACcAE//oACcAFP/vACcAFf/iACcAFv/oACcAGP/uACcAGwAjACcAHQAXACcAHgAYACcAHwAdACcAIQAeACcAIgAeACcAI//0ACcAJAAXACcAJQAYACcAKQAeACcAKv/0ACcAKwAYACcALQASACcALgAXACcALwAXACcAMAASACcAMQAXACcAMgAeACcAMwAYACcAOQARACgAB//uACgACv/uACgAC//pACgADv/6ACgAGv+6ACgAHv/uACgAH//1ACgAIf/1ACgAIv/1ACgAI//uACgAJf/0ACgAJv/RACgAJ//jACgAKf/7ACgAK//6ACgALf/cACgALv/0ACgAL//AACgAMP/GACgAMf/RACgAMv/GACgAM//jACgAOf/6ACkABP/XACkABv/dACkADv/XACkAEP/XACkAEf/vACkAEv/vACkAGv+oACkAGwARACkAHAAGACkAHQAYACkAHgAGACkAHwASACkAIAAGACkAIQALACkAIgARACkAI/+uACkAJAALACkAJQAMACkAJv/dACkAJ//uACkAKgAGACkAKwAFACkALAASACkAMf/6ACkANP/dACkAOP/pACkAOv/RACoACv/1ACoAC//0ACoAGv/FACoAG//uACoAHv/0ACoAH//vACoAIf/0ACoAIv/vACoAI//oACoAJP/0ACoAJf/vACoAJv/XACoAJ//cACoAK//0ACoALf/RACoAL//FACoAMP+6ACoAMf/RACoAMv+6ACoAOP/vACoAOf/0ACsABP/uACsABv/6ACsADv/0ACsAD//uACsAE//dACsAFP/dACsAFf/cACsAFv/XACsAGP/jACsAHP/0ACsAIP/cACsAKP/pACsALf/dACsALv/jACsAL//XACsAMP/GACsAMv/XACsANP/0ACsAOv/vACwABAAGACwAE//0ACwAFP/1ACwAFf/oACwAFv/oACwAGP/pACwAGv/pACwAJ//vACwAMf/6AC0ABP/dAC0ABv/RAC0ADP/oAC0ADf/pAC0ADv/dAC0AD//dAC0AEP/cAC0AEf/0AC0AEv/0AC0AFP/dAC0AFf/dAC0AFv/RAC0AGP/jAC0AGf/iAC0AGgAeAC0AGwCeAC0AHAB1AC0AHQCkAC0AHgCYAC0AHwCkAC0AIAB1AC0AIQCeAC0AIgCkAC0AI//0AC0AJACeAC0AJQCqAC0AJgBvAC0AJwB7AC0AKAB1AC0AKQCeAC0AKgB1AC0AKwCZAC0ALACNAC0ALQCZAC0ALgCeAC0ALwCTAC0AMACNAC0AMQCMAC0AMgCeAC0AMwCYAC0ANP/jAC0AOP/pAC0AOv/pAC4ABf/0AC4ABv/1AC4ADv/7AC4AD//1AC4AEP/uAC4AE//dAC4AFP/oAC4AFf/pAC4AFv/uAC4AGP/oAC4AGwAMAC4AHP/6AC4AHQAGAC4AHgAGAC4AHwAMAC4AIgASAC4AJAAMAC4AJQAGAC4ANP/1AC8ABP/1AC8ABv/1AC8AEwAXAC8AFAASAC8AFQASAC8AFgASAC8AFwAdAC8AGAAdAC8AGQAGAC8AGv/6AC8AGwB1AC8AHABAAC8AHQCNAC8AHgB7AC8AHwCBAC8AIAA6AC8AIQB7AC8AIgCHAC8AI//vAC8AJAB7AC8AJQCHAC8AJgBSAC8AJwBjAC8AKABBAC8AKQCBAC8AKgBHAC8AKwCBAC8ALABjAC8ALQB7AC8ALgCBAC8ALwB7AC8AMAB7AC8AMQB7AC8AMgB7AC8AMwCBADAABP/1ADAABv/uADAADv/pADAAEP/uADAAGv/pADAAGwBwADAAHAA1ADAAHQBvADAAHgBqADAAHwBpADAAIAA0ADAAIQB1ADAAIgBvADAAI//dADAAJABvADAAJQBvADAAJgA1ADAAJwBSADAAKAAvADAAKQBvADAAKgA1ADAAKwBvADAALABYADAALQBqADAALgBwADAALwB1ADAAMAB1ADAAMQBwADAAMgB1ADAAMwBqADAANP/pADAAOP/oADAAOv/pADEABP/pADEABf/1ADEABv/vADEADv/jADEAD//uADEAEP/jADEAFP/dADEAFf+cADEAFv+oADEAGP+cADEAHP/XADEAHQAMADEAIP/dADEAI//cADEAJwAMADEAKP/LADEAKv/dADEAMQAMADEAOv/jADIABP/6ADIABv/uADIADv/uADIADwALADIAFQARADIAFgAYADIAFwAXADIAGAAYADIAGwCSADIAHABHADIAHQCNADIAHgCNADIAHwCMADIAIABSADIAIQCHADIAIgCTADIAJACSADIAJQCSADIAJgBjADIAJwB2ADIAKABBADIAKQCeADIAKgBGADIAKwCNADIALAB7ADIALQCHADIALgCGADIALwCHADIAMACMADIAMQCMADIAMgCNADIAMwCSADIAOP/oADIAOv/uADMABP/0ADMABf/vADMABv/pADMACP/6ADMADv/0ADMAE//LADMAFP/dADMAFf+oADMAFv+iADMAGP+cADMAGwAMADMAHP/pADMAI//6ADMAKP/dADMAKv/vADMALf/uADMALv/0ADMAL//vADMAMP/0ADMANP/6ADMAOv/6ADQABP/6ADQADv/6ADQAE//0ADQAFP/jADQAFf/uADQAFv/0ADQAGP/oADUACP/sADYAB//6ADgABP/pADgADP/6ADgADf/6ADgADv/6ADgAD//vADgAEP/1ADgAEv/6ADgAE//cADgAFP/XADgAFf/RADgAFv/RADgAGP/XADgANP/uADgAOv/oADkABf/7ADkAE//1ADkAFP/oADkAFf/1ADkAFv/pADkAGP/pADoAEQAGADoAFP/0ADoAGP/0AAAAAQAAAAoANgBQAAJERkxUAA5MQVROABoABAAAAAD//wABAAAAAAABbGF0bgAKAAD//wABAAEAAmtlcm4ADmtlcm4AFAAAAAEAAAAAAAEAAAABAAQAAgAAAAEACAABDZYABAAAADUAdACKAJQAugDwAPYA/AEiATgBWgGQAaYByAHSAgQCIgJkApICxALOAvwDBgNwA9IEIASCBMgFTgWQBd4GLAaSBvgHVgewCDYIlAkCCVgJpgnMCnoKyAtWC9wMKgy0DQoNKA0uDTQNbg2IAAUAE//0ABT/6QAV//QAFv/0ABj/7gACAAT/+gAQ//QACQAE//oACQAjAAz/+gAQ//oAE//0ABT/7gAV//oAFv/pADj/9AANAAT/9QAG//UACP/0AA7/7wAP//oAE//dABT/3QAV/90AFv/dABj/6QA0//QAN//LADr/9AABADb/8QABAAkAHQAJAAT/+gAO//oAD//0ABP/6AAU/+4AFf/oABb/3QAY/+8AOv/6AAUABP/6ABT/7gAV/+4AFv/pABj/9AAIAAT/9AAG//QADv/1ABP/1wAU/+gAFf/XABb/7gAY/+MADQAE//QABf/0AAb/+gAI//QADf/7AA7/7gAT/90AFP/cABX/3AAW/9cAGP/dADT/+gA6//UABQAF//oAFP/uABX/6QAW/+kAF//oAAgAB//0AAr/9AAT/+gAFP/0ABX/7gAW/+gAGP/oADj/+gACAAkAGAAYABgADAAE//QABv/0AAf/6QAK//UADv/vABD/9AAS//sAGf/0ADT/9AA4/+gAOf/0ADr/7wAHAAT/+gAG/+4AE//uABT/9AAV/+8AFv/1ABj/+gAQAAT/6QAF/+gABv/jAAj/9AAO/+4AD//oABD/7wAR//oAE//XABT/1wAV/+MAFv/uABj/7wA0/+8AOP/1ADr/4gALAAT/4wAG//QAB//0AAv/7gAO/+gAEP/pABL/7gA0/+MAOP/cADn/7gA6/90ADAAE/+IABv/0AAf/7wAK/+8AC//uAA7/6QAQ/+MAEv/7ADT/3QA4/+MAOf/1ADr/6QACAA7/7wA6//UACwAE/+IABv/pAAf/+gAJACkADv/jABD/9AAS//UANP/pADj/6QA5/+4AOv/dAAIADv/6ABX/+wAaAAT/4wAF/+gABv/jAAn/4gAO//QAD//uABD/6QAT/8UAFP/RABX/rgAW/64AGP+uABz/ywAg/8sAI//vACj/ywAq/90ALf95AC7/0QAv/4UAMP+FADL/hAAz/+4ANP/oADj/+gA6/+8AGAAF//QADP/6AA3/9AAP//QAEf/6ABL/9AAT/+IAFP/pABX/4gAW/90AF//1ABj/1wAZ//oAGv/uABz/9QAg//QAJv/1ACj/9AAt/+IAL/+/ADD/xQAx//sAMv/LADP/7gATAAX/+gAR//oAE//vABT/9AAV/+gAFv/pABf/9AAY/+kAGv/oABsAEQAg//oAIQAGACb/7wAn//QAKP/0AC3/+gAv/+gAMf/6ADL/9AAYAAf/9AAK//oAC//0ABr/ugAe//QAH//0ACH/+gAi//QAI//uACT/6AAl/+4AJv/dACf/1wAp//UAK//6AC3/9QAu/+gAL//FADD/wAAx/9cAMv/AADP/3QA4/+8AOf/7ABEACf/6AA7/7wAP//oAEP/0ABP/1wAU/90AFf/RABb/xQAY/9EAHP/iAB4ACwAg/+4AIQAGACIADAAlAAYAKP/iACr/4gAhAAcARgAKAEYACwBGAA7/9AAQ//oAGv+/ABsAXgAcACMAHQBNAB4ATAAfAFIAIAAeACEARgAiAFIAI//oACQAUgAlAEwAJgAdACcAOwAoAB4AKQBMACoAIwArAEcALAA7AC0ATQAuAEYALwBNADAAQQAxAEYAMgBHADMAUgA4/+MAOQBMABAAE//0ABT/7wAV/+4AFv/uABj/7wAa//UAHwAGACIABQAm//oAJ//6AC3/7wAu//sAL//dADD/6AAy/+IAM//0ABMADv/6ABP/6QAU/+gAFf/pABb/6QAY/+4AGwALAB0ADAAeABIAIP/0ACEACwAiAAYAJAALACUABgAo//QAKQAMACsABgAsAAwALgAGABMABP/6AAX/9AAG//QADv/6AA//9QAT/+8AFP/vABX/7wAW/+kAGP/uAB4ABQAg//UAIQALACP/+gAkAAUAKv/0ACsABgA0//QAOv/6ABkABwAXAAgABgAJAAwACgASAAsAEQAa/+MAGwAYAB0AHQAeAB0AHwAeACEAHgAiABcAJAASACUAFwAm//UAKQAdACsAHQAtABEALgAYAC8AEgAwABgAMQAdADIAEQAzABcAOQAXABkABP/uAAX/7wAG/+kACP/1AAn/+gAO//QAD//6ABD/9QAT/9cAFP/dABX/xQAW/8sAGP/XABn/+gAc/+kAIP/oACP/+gAo/90AKQAFACr/7wAt//oALv/6AC//+gA0//QAOv/0ABcABf/0AAj/7wAJ//QAD//6ABP/1wAU/+MAFf+0ABb/tAAX//UAGP/MABr/9AAc/+4AIP/pACf/+gAo/+kAKv/uAC3/UAAu/9cAL/9uADD/fwAx//sAMv96ADP/7wAWAAT/7gAF//oABv/1AAn/+gAO/+8AE//cABT/7gAV/+IAFv/dABj/4wAc/+4AHgAGACD/9AAj//oAKP/vACr/6QAt/90AL//oADD/4wAy//QANP/6ADr/9AAhAAT/9AAG//QABwASAAgABgAKABEACwARAA7/9AAP//oAE//oABT/7wAV/+IAFv/oABj/7gAbACMAHQAXAB4AGAAfAB0AIQAeACIAHgAj//QAJAAXACUAGAApAB4AKv/0ACsAGAAtABIALgAXAC8AFwAwABIAMQAXADIAHgAzABgAOQARABcAB//uAAr/7gAL/+kADv/6ABr/ugAe/+4AH//1ACH/9QAi//UAI//uACX/9AAm/9EAJ//jACn/+wAr//oALf/cAC7/9AAv/8AAMP/GADH/0QAy/8YAM//jADn/+gAbAAT/1wAG/90ADv/XABD/1wAR/+8AEv/vABr/qAAbABEAHAAGAB0AGAAeAAYAHwASACAABgAhAAsAIgARACP/rgAkAAsAJQAMACb/3QAn/+4AKgAGACsABQAsABIAMf/6ADT/3QA4/+kAOv/RABUACv/1AAv/9AAa/8UAG//uAB7/9AAf/+8AIf/0ACL/7wAj/+gAJP/0ACX/7wAm/9cAJ//cACv/9AAt/9EAL//FADD/ugAx/9EAMv+6ADj/7wA5//QAEwAE/+4ABv/6AA7/9AAP/+4AE//dABT/3QAV/9wAFv/XABj/4wAc//QAIP/cACj/6QAt/90ALv/jAC//1wAw/8YAMv/XADT/9AA6/+8ACQAEAAYAE//0ABT/9QAV/+gAFv/oABj/6QAa/+kAJ//vADH/+gArAAT/3QAG/9EADP/oAA3/6QAO/90AD//dABD/3AAR//QAEv/0ABT/3QAV/90AFv/RABj/4wAZ/+IAGgAeABsAngAcAHUAHQCkAB4AmAAfAKQAIAB1ACEAngAiAKQAI//0ACQAngAlAKoAJgBvACcAewAoAHUAKQCeACoAdQArAJkALACNAC0AmQAuAJ4ALwCTADAAjQAxAIwAMgCeADMAmAA0/+MAOP/pADr/6QATAAX/9AAG//UADv/7AA//9QAQ/+4AE//dABT/6AAV/+kAFv/uABj/6AAbAAwAHP/6AB0ABgAeAAYAHwAMACIAEgAkAAwAJQAGADT/9QAjAAT/9QAG//UAEwAXABQAEgAVABIAFgASABcAHQAYAB0AGQAGABr/+gAbAHUAHABAAB0AjQAeAHsAHwCBACAAOgAhAHsAIgCHACP/7wAkAHsAJQCHACYAUgAnAGMAKABBACkAgQAqAEcAKwCBACwAYwAtAHsALgCBAC8AewAwAHsAMQB7ADIAewAzAIEAIQAE//UABv/uAA7/6QAQ/+4AGv/pABsAcAAcADUAHQBvAB4AagAfAGkAIAA0ACEAdQAiAG8AI//dACQAbwAlAG8AJgA1ACcAUgAoAC8AKQBvACoANQArAG8ALABYAC0AagAuAHAALwB1ADAAdQAxAHAAMgB1ADMAagA0/+kAOP/oADr/6QATAAT/6QAF//UABv/vAA7/4wAP/+4AEP/jABT/3QAV/5wAFv+oABj/nAAc/9cAHQAMACD/3QAj/9wAJwAMACj/ywAq/90AMQAMADr/4wAiAAT/+gAG/+4ADv/uAA8ACwAVABEAFgAYABcAFwAYABgAGwCSABwARwAdAI0AHgCNAB8AjAAgAFIAIQCHACIAkwAkAJIAJQCSACYAYwAnAHYAKABBACkAngAqAEYAKwCNACwAewAtAIcALgCGAC8AhwAwAIwAMQCMADIAjQAzAJIAOP/oADr/7gAVAAT/9AAF/+8ABv/pAAj/+gAO//QAE//LABT/3QAV/6gAFv+iABj/nAAbAAwAHP/pACP/+gAo/90AKv/vAC3/7gAu//QAL//vADD/9AA0//oAOv/6AAcABP/6AA7/+gAT//QAFP/jABX/7gAW//QAGP/oAAEACP/sAAEAB//6AA4ABP/pAAz/+gAN//oADv/6AA//7wAQ//UAEv/6ABP/3AAU/9cAFf/RABb/0QAY/9cANP/uADr/6AAGAAX/+wAT//UAFP/oABX/9QAW/+kAGP/pAAMAEQAGABT/9AAY//QAAgADAAQAEQAAABMANgAOADgAOgAyAAEAAAAKAD4AiAACREZMVAAOTEFUTgAeAAQAAAAA//8AAwAAAAIABAAAAAFsYXRuAAoAAP//AAMAAQADAAUABmFhbHQAJmFhbHQALGxpZ2EAMmxpZ2EAOHNzMDEAPnNzMDEARAAAAAEAAAAAAAEAAAAAAAEAAQAAAAEAAQAAAAEAAgAAAAEAAgADAAgAEAAYAAEAAAABAEgABAAAAAEAEAABAAAAAQAuAAEAOgACAAoAFAABAAQANwACABgAAQAEADsABgAIAAYABwATABgAAgAcAAIANgA1AAIAEgACADYANQABAAIAEwAnAAEAAgAGACcAAAEABAIAAQEBC05pZ2h0eURFTU8AAQEBKfgQAPghAfghDAD4IgL4IgP4IwT7Z/sFHAnk+SwF90wP92URsRwVgBIACQEBBQcLDxIdWWRqTlVMTENSTi5OMWcuZzF0X3lOX2lfZ19oX3RfeUNvcHlyaWdodCBcKGNcKSAyMDIxIGJ5IERoYXJtYXMgU3R1ZGlvLiBBbGwgcmlnaHRzIHJlc2VydmVkLk5pZ2h0eSBERU1PTm9ybWFsAAABAYcBAAEAAEYVACIZAEUAAYkCAEICAYwAADwCAAEAAgAFAAYABwBAAJUBPgF9AawCBwJUAmICvAL7AywDdQOpA94EMgRzBMkE7wVMBcgGGQZtBucHVweLB8wIFAhGCI0IxAjdCRsJgQm4CkkKxwrnCzQLkQv0DG4M0g0cDX4OGg6oDxIPaw+XD94QgBEOEXARnxHTFDMO/IcODg4v2ef3V7oBi/co5PcmQwp9cmGHY5oIo733FHrXGsY5zCVBCh6x95wVa2JPhlwecp95qrPd5I5mGg77c/fc3/cVvgG99xr19z0DtffcFZNhBicKX6x8y1sKHsJ2CrWrB6OdnqKieZ5zH24GxZGd0q4bpJh8VZEflED3S6Fx1wjFeC6yPxsmLE77C3gfgFoKfyW9WfcsmcyOvvdHvRKLdQro9y51CvcoE60A96QEYqhmuXIeE6sAXEyWSfcMG+qnmn+pH619VDdRfmqEhKiDrwgTbQB8zPtJg6BACEyd5nD3Bxv3Afc6yOd5HxOrAGz3MPu++xh7tQgTmwCIk5aTm5IIhqKjiKUb9xLwytgfE6yAPwpUChOtAHAKH/d35RWrpGNZHxOdAFpyY2tscbO8HhOtAL2ls6oeDpD3/r1lCvcq9xoD+BLZFcusmrcfYQrjhzexMxtiZYN4bh/OqaQiCj0Kyq2at7R7o4KxHoefBVgKiUtuRQoeDvui+DB3qfcbEov3Rfsc9xoTkI731xU1Csuql7NxChoT4PcC9wIVuqCmtX6qfToK+50lvfhkd6n3GxL7Z/dMt/dE+yj3IBPU+2eCFU/vaujz7sj3Bx73RgfLqZez6/trOVAaZap/kmEeLZuE+1FUG3iLoasf5/tMgywaE/j36fhOFbqgprV9qn46CnP4MHdGCqmCoYOjHpiWmmmMb6BtGWGpon/LG8vQvrhvH2u+SpBmw4CbGLWarImsqwiurV+pWxtlZoZvcB9vbph0VV95fBiKkYuRkTEK+67Z+JZGCh7CbaXPMQr3WPf+vQGx9yTk9yzd9xsDkvcdFTwKlomTiJMeiY+Kj4mOCNRuq/cGuDkKnYiah5ke3Xqe67c5Ch5hCtdfvTRTZnNjdR6zeGOjTxtrcoN+dx9rxfs6Q1U0Cg5/9/69AbH3GvcK9xsD+D33rRWQB9dSvTNsb4N9dB5sxvs7Q1U1ChqRB8Gyva2mnWRhHkttcVVICsFupYrLHg48cgoBi/cz3PcyA/db2RX3AuTV6Ocy1vsCQQof97AEop1WS0p5V3R1eb/My53AoR8OiDp290hgCqn3G/cg9zkDYARgrXvLyq2bth7DZwqUB3OrtH25agpmaYJ7bx+dfG6SYBtLaXxfH1OpckcaKgdHbXFTGvd/+CE7CoY6dvdIQgq4tZmjqx+CB0dscVMaYK17y8utm7Yew20KpMMat2maS2BthHl9HptuaZRnLgo898nyAbH3GgOS9x0VUwoan5Gwnx6qtE63G66uqL6VH7STdbZiG1BoXoRgH42Mjo5xCjQKDvsGcgoBi/cvwPctA6n3iRXFXPcMc28ac2aGWbkeaqsoiZldCF6Z6HPTG/cl3PHMQB9UuvsQooyoCKOwkLxcHq1s7o18uQi4fi2jQxv7JDciTdkfDvtB2eL3N98Bw/ciA7X33BWZ+yYGSwp1gQhVcYKkrRr3C78Hop6eoqJ4nnQfbQaQlo+WmRqrdJdtHlhgO3EbfVoKdtm997B3AbL3G/T3GwOy97IVOQc+vFrjvKyerKYeapepeK8bsWkK9yUHq3elXHQ4g2V3l4OWfx5KsWf7GVQbcIGxth/3JQerd6VbdDiDZR5osoxdGg5d+DB3Afev9yY+CrDPt6GitBmpm3ioZBtlcnxndx9wWaZ2Z0cwCvdZ+DB3Afim9yc+Co+Tj5KQkRmTgJR+k3y7LhifYcGGp7rH9wMYr8+4oaK0CKmbd6hlG2VxfGd3H3BZp3ZmRwiJB3DFka92TgpLU3Ffoh+Wd5d9l32IeIZ2emswCjj4MHcBi/gdA/gR9zIVarVtkGuyCIwHq8C0n6e2CKWceKRjG2NwcnF9H4J8iHyIfIaXhZiBlwixbGSgSBtJW2pgrh+rYayCqmUIioqLihprVmJ3b2AIcXqfcrMbs6WkpZoflJuOm46dkXyRfZZ+CGWqsnbOG824r7doHw5iJfX4LHcBd/hcA+yyFUuyUFSRVwhWkkQKqM+1oZy0CKmYdKhlG2VzfGd7H3ZZqHdwRgiKB1IKS1VxX6gfsFOkdr1Gukq+QHFldGhisGyeCA44cgoSlPdMkvdME9DI96UVyKXkrxuoe3B3dx8T4EJFSEsFWVqbVtAb904G9yyf9x8oTnEyZxtum6aenx8T0NTSzssFvbx7wEYb+04G+y14+x/uGw7G93K99zX3MxKL91D7UPisE5AT4N7ZFcmxnKmQH5KyUaKPrgj3OwaMb4h0l2kIX5q5fMsby7Sat3wfd8JjpXPPaewYz3Nt9yErG2FofGV8H3damml4Vln7Gxh3Uk1xfV4IX3y9ebgb9wn31xWZraKjoz+y+wMY+yYGDpfYvvdJvvdJvhJiCvcN9yci9ycU4BP0XQpirnvDiR6KigX3igbez8vZxGa8VqEfE/ippZ2wtBrYR8s4HvtUXgoqBxP0Jwr3RfdAFckGw7hjWVleYlNpb5uvH/faBKOdlpseE/ivvlxgWU1iVB+HBg6+2fH3/r0Bi/cyA/ex2RXr3rbMwB+kqmencHD7O/sz+4H4DfcE4bat14O1VQhasnQv1C8KvnMKAWIK9zb3SQNMCvcjBvcx9wr3B/ci9yH7CvcI+zEf+yNeCvcn+2MV99EHpZuhpc+/+wozM1f7C0dxe6GlHg5t2b33U00KE+ZMCvQGy6qHh58fbPcoj/dFRElxM0kbZG6btR/3Ga0Hu6ZfuRuyjqizs4hvCmluChPyzaUzzRsT5mwKE+pACg4g99NNChPMJgqspge7pl+5G7KNqLOziW8KcG4KE+TNpTPNGxPMbAoT1EAKKgcTzCcKDs3Z2PgXvQGL9zP3V/dPA/ex2RXbjp+yG7LLVc4fz6qhwhq3a59LS3B3X2qfYpNwHvsY+zH3u9PpH7as14S1VQhYtHMx0y8KvvfJvgFiCvdB9ycDJgqi90F0B0dscVQaJArCbVEKqSgKqnFHGnT7QaJoCqXCGrdjm0tLYyAKDvufdApiCgMmCuwHz6qlwhq3Y5tLS2MgCg5W2b0Bi/dQ2vcnA/dp2RX3Cd/C4x/3NmgKOApim0wrCvsaB0l0VGJa6Pcmr1QeW6v7BHxwPQg9cN8u9ysbDpz36aESqfco3/dy+z33JxPQXQokCsBtpcnn9x2D+wJvbF9gGiQKtm2usBroN8Mvfx4T4MW/1Ki4swi0uXG0QxtIY3Ztch9uZ6pYV1ZYZRifaAqlwxq2Y5tLS2N7YB5TKQoT0CcKDnrZvQFiCmYKYLJ7yh7nBsy3h4efH2z3KKX3dTAxgPscQhtke6O8H/dKaAqlwhq3Y5tLS2MgCg73XHQK08H38vcpA9jZFbmxmbCOH4+9VrKQz5j3QRj3FPvcn1avi5/AGfcY9+aZ+0uQR25xj1QZX4+2fMsby7Kat4gfhsJrpYbPhOwYhc+opYfCCLeHaJtMG0tvZmd8Hzf7cwWLT/c6d7wevnZ4qU4bTYoGaol7fIhph1modoZHg/sHGIZHUGSHWQhmiKt9uxsOwnQKx7335r0D9xUEZrJ9ucCrmbAevU+pzhr3EQeRi5CMkR6KvE6bdh4pz/b7M98bqQaxpZmwH71soM8a9xEHz8eovRqwZJpdVmt8Zh5Zx25HGvsRB4WLhoqGHo2IWsh6pAjsRiD3NDcbbQZlcXxmH1mqdkca+xEHSE9tWRoO83MKAYv3T/dd908D97TZFTIK+yL3FfsH9zMf+GMEMwpm966992a9AWIK9xj3KGYKIwrBbqWJzB73BAbn19Hg4D/RLx/7TQZLY3tgH1MhCvdF+A4VoaSVpoMeu32rY1saXWphXH0ecINylaEaDvH7BfcrlMZvvfgxvhKL90/3XfdPE7wT3Pcx9RV6eYeAdx9oeZ1Zr50IE7y34Mj7WvcyG/cpd/dJeT8f+xlrSrFVpwiHn5+JoRsyCh8T3CfLNOhhHhO89xf4RxUzCp730733Qb0SYgr3Dvc0+yT3JxPoJgqsugeyv2toH1ZteGAaJAq2bJ7AGrhtqWCcHhPwtKSotLga1z3IOB77VgZLY3tfH1QpChPoJwoT8Pe/99IVXlxiVh5190GhBsC6YV4fDnrZvfep9yp9vhKL91PW91ITuMD34hXWTvciboc3CHWJgIF6GyeNhfcZQY1NjHX7INt/voOUcfOJ906G9wf3JyzthpGEkISRQcn7I6eQ34yhlpacigjviZL7GdSKCBPYyomk9yE3lggTuFiSg6YijvtNj/sI+yfqKggOYPhK9zhOvljIEvd09ycTkLj4ShUTMM238sQbmAaKh4uHhhr7hgdHbHFUGiQKYQr3hgeQio+PGpgGE5DDtyTNG9KI91Rs+ykfE1CIfV6HWBv7DQZXXo+OfR8TkKr7KYj7VNIbDuLZvQFiCvdh9ycDqfetFfse3Ur3Hcm3nayoHmqQnHm9G82xmbwfvGym0BrsaAo4CmKbTCsKJgcvYU1PTmHL5R7waAooCqlxRxoOd9n3MgH4NPdBA+74ExXH+0kFMqqfaM0byaC04bAf1vdEosPVsJy4GbebZqg/G0Rte26CH3pT3F5pPWEnGHtpbnRw1ln3Khh+tJegfa4Itnpqm0IbQ1t7YJ0foVO+c6FFCA73gtn3MgH5L/c5A+r4ExXE+0kFMqmeaMobx5+04a8focOeUAUyqJ5oyxvGn7Thrx/S90Shw9Kwm7gZt5tnqEMbR257boIfe1PZXmo9YicYfWlvdHHWW/cqGH60l6B+rgi2emybRRtGXXtgnB+hU7tzoEWaXRhvRnxpb3Ry1hlb9yp+tJegfa4Ztnpsm0YbRV57YJsfoVO8c6BFCA6odAqM90f3LPdHA/c09+MVdF1uUjpndl4ZX3awbtsb1rWnqZQflrIxqLXZkJYYp16iaX9oo2kZYKm2c9gb17mat20fZcJZpGLQcrMYj5QFjAaiuajD3LCguBm3oGaoOxtAYW5tgh+AZOVvYTyFgBhmx3G0h6p2rxmseF+aVxs+VHtgqR+xU75ztEWkYxgOQNn4lhL3OPdkg/dJE6ATwPcc+AYVxSYFhlNycVkaIwq+cqSGwx4ToMv3BKvD17CjuBm3om2oQxtIZXZtgB99ZMdZZksIi31yfHIeVO10tJSgda4ZtnBfm0YbRmFuYKYfE8CvU8FzsUUIDoNzCljIEov4aROwtfhZFc6o480bxwb7cvwABVhtk1vYG/c6Bp61hoibH2z3J5b3RURJbTNJG1AGE9D3cvgABb+pgrs/G/s6Bndhj458HxOwqvsnf/tF0hsOiNlCCq+tlJuoH3mZqYS2G1sKH8JtClAKS0tpe18eVKpxRxqCB6NrYZleLgr3i/dx92fM6WQKE+j5D/ehFbr3BGsKGSoK+wMzvPs+9x0b1bzq110fX9L7AlSfwwgT2FcKdEhFbXlZCCUKE+h4pXufe54IDnk6dvdIw4u890e9Eov3Pvs19zL3CXUK9yj7FPcFE9SAE9kA+AX4iRVjdn5hkGUIk25rj2obcApTwVradR8T1IBL+zyZ+0v3EvcVSgrw+w3bvQjH7Ib3OPsLGzJNOptrHxO2AHGYrbXYlQiQj4yMjx+MBvGY2MPOGhPVADcKCBPZAMqtRN9HZggTugD7IvvSFWtys7y9pLOrq6RjWVpyY2sfDvdUJfXV4vc33/cVvhKLpqj3I/sG9ysT9Pj6RwqKB2/AhrVysAixcl+gSxsgBhP66cNZCqMy90Y2CnSeeKIfE/SZ+yYGQ8xrv7bFl7imHqKyYpd2gQhUcYOkrRr3C7sHq12kdLlMulUKUVSRVwhWkcl3whvhudHesh+YpsX3JIsap8+1oZ20CKmYdKhkGw5Z2dfZxNS9AfeS9xoD9ynZFcGwm5+lH3SapX6oG7JpCscH4yPCOUP7BnlNmR6Sa7l7rZYImrSCv7QbrKBmWpIfNbT7SU+cLghEmNZ8xxv09yMVZgdna1x8grmGq6mvzm0IDoPZYAqp9xv3IPc5Zgo9Craokp2aHnunrYKwagpdYn1zax+UB8+ppSIK93/3bTsKLdno91O9AYv3Ocz3MkMKCG5X+xm19wMasZupnZ6TZFePHpFB90arbtYIzHM+tjYbQQofDhwIDSX11cNT4jT34vuqvLH3U/sj9yM380W9X7eV9xtP6Vm+ZAqd90T7HPcbqfc++zX3M/cIdQr3KPsU9wW59xv3Kvcak6ao9yL7BfcrE6QTU6AcCa9HCouLioseUgr7AAYTBAgAUOnEWQqiMvdHNgofEwEAAEB0nniiHhOhAAAgmSwGhwd6i4N1GksKdoEIVHGCpK0aowfqvAeqXaR0uUy7VQpQVJJXCFaRRAoTBAAAIKjPtaGdtAgTpBNToKmXdKhlGxMEACQA/QL7EhXjhzexMxtiZYN4bh/OqaTCGrdpm0weE5AAEgBLaXtfH1QhChPAABIALAoeEwgAGAC0e6OCsR6LB4uLi4seipGJkoqSCBMEAAQAWAoTBAAkAIlLbnFVGhMEAAGAPQrLrJq3HmEK/Lr3axVUCnAKU8Ja2XUfExAAAQBL+zyZ+0v3E/cUSgrx+w3avQjH7Yb3OPsMGxMAgAGAM0w6m2sfcZiutdeVCBMQAACAkI+MjI8fi4yLix6LBxMEAAGA8ZjYw84aEwiAKAA/Cgj7IvvSFWxxs7wfEwQAQAC9pbOqHosHiwcTEABAAIsHq6RjWVpyY2sfEwQAQAD7d/dNFXEKGhMBBQAAZbGAYFBtj2QaXArKWwoetm2Qzsupl7MaLswVEwQEAAC6oKa1fqp9qlqUXHYIEwEEAABcd3BhmWwIEyBSAACYbLyCup8I+8b3eBUqChMQAQAA+wMzvPs+9x0b1bzq110fX9L7AlSfwwgTAgEAAFcKEwEFAAB0SEVteVkIEwAggAAlCnile597nrr3BBhrCggOi4v4MIv3U4sGJYsHvQr3OQu9k665DAz3GpidlwwN9x0U+IcVsRMAWAIAAQAIAA0AGAAgACQAVABcAGIAbgBzAJ8ApACqAK8AzwDvAQcBEAEpAT8BSQFOAWIBbwF0AYIBlQGoAa0BsQHEAc0B1wHiAfECAwIVAhsCIgIzAjcCOwJKAlkCZQJzAnwCgwKIAo4CnAKkArICwALEAtEC3gLrAu4C8gL2AvoDBAMKAxADFAMYAyADKwMwAzQDOAM8A0YDUANaA2MDaANxA3oDgAOGA4wDkgOXA5wDoAOke18eVCEKCykKJwoLwhq3aZtMS2kgCgtfs3cKs5q3CyMKHgtmfrJ9uRvAsJmwmB+cvVqpos6r5xiUf5R+lH3U+wV3i6pYCEK2wn3LG8rUpu5EHwtdCiQKwnYKC0dtcVQaCzgKY5tLS2N7Xx5UCy0KKgcL+yR40Pt+9xbTwamWY2H7AHdcGICXgJl/nAhouV7Iixr7FvdH+3JqNPsBCAtLY08KCz0KylYKC6lxRxoLGyQ4QC8u3kHyH7v3qBWyq1pPT2taZGVrvMfHq7yxHw4b4673OqYmH5diV606G/sy+xP7B/si+yL3E/sH9zIfDoqJGHDFkq91TgpMUnFfoh+pU7J9r0cIDhrsB8+ppSIKDvcy9xX3B/ci9yL7FfcH+zL7M/sV+wf7IgvCuC/7BvsHXi9UU17n9wf3Brjnwx8OZbGAYFBsj2QaCzQKUwoLoWrZCJ6Di6usG6SzWTxSH31fCguwdaxmpB6JmZCYuqULpcIatwsbpo5kYR+KS25xVUgKC6palFx2XHdwYZhsmWy8grqfCA4VsqpaT09sWmRkbLzHx6q8sh8OPQpbCgtcCssLA/cC92AVvC6fYcGGproZx/cDCzcKyq1E30dmC4d3bIhLGyJeCgv7AjJALy7kQfcCC2AKi/c49yH3GgP3TtkVCwP3W9kV2c+wwqsfn65SlX51C8h3whviudHesh+YpsT3JIsaC3FVGj0KC2UKZgosCgv4MBVlc3xnfB92Wad3cEYICxosCgulzxoLfvdI9wAbq2BxgXsfKk4LQ8trwLXGl7ilHqOyYpcLqfeyFScKYLJ7yh4LvbZ3yPcpTr5YyBJiCguyCLF2aqBLGwt7Xx5ULQoLOAppmwtJCuwHzwtuwIa1c7AIsXFfoEwbCzwKHrZskM4LY3Z/YY9lCJNubI9pGwtKvUByZXNoYrBsnkuyC62atwuXq+uz9wj7DVv7HxgLv4etvbQbuqlkYYwfCzrh+zEb+yBSTleZHwtjCg7LVgoLX618C/cdBAsGTIpkfF9ULQoLBnR4eHQLxfduxQELwmcKC6n3JwtfCnSeeKIfCxKL94Ex9zf34NQLAan3GwsDXQoLbUkKCwfPqgu9prAfqmaNrRoLG/Hf1ejnN9YlC973Tzv3BfsmdwvSh/dFbPsoHwtsUQqqC/cGBrWom7IeC6dkH11wYFsbC/sRJU09C+v7XzlQC9m99369C9m9+DG+C9n4lgEL9z77GQtsSQoLfMvLCwAA) format("opentype");
+}
+
+:root{
+  --cream:      #F3EADA;
+  --ink:        #151330;   /* near-black, biased toward the cobalt */
+  --cobalt:     #2B44D6;
+  --verm:       #E8442A;
+  --amber:      #F0A63C;
+  --gold:       #F6C75E;
+  --rose:       #C9566B;
+  --violet:     #6B2F63;
+  --night:      #28245C;
+
+  /* driven by scroll */
+  --sky-top: #28245C;
+  --sky-mid: #3E2C64;
+  --sky-bot: #5C3460;
+  --ridge-1: #100B22;
+  --ridge-2: #1A1232;
+  --ridge-3: #281C44;
+  --star-op: 1;
+  --sun-y: 0;
+  --sun-glow: 0;
+
+  /* Nighty carries the headings. It has no digits and no punctuation, so the
+     grotesk stays behind it in the stack — the browser falls back per glyph
+     for full stops, and numerals are pinned to --grotesk explicitly below. */
+  --display: "Nighty DEMO", Impact, "Haettenschweiler", "Arial Narrow Bold", "Franklin Gothic Bold", sans-serif;
+  --grotesk: Impact, "Haettenschweiler", "Arial Narrow Bold", "Franklin Gothic Bold", sans-serif;
+  --body: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --data: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, monospace;
+
+  --measure: 36rem;
+  --gut: clamp(1.4rem, 5vw, 5rem);
+  --rail: 5.25rem;
+
+  /* ---- the fixed lockup, hoisted so sections can reserve room for it ----
+     Now a vector, so the height is simply the artwork's own ratio: the
+     viewBox is 1478 × 334. Nothing to keep in sync by hand. */
+  --logo-w:   min(56vw, 20rem);
+  --logo-top: clamp(1.1rem, 3.4vh, 2.2rem);
+  --logo-h:   calc(var(--logo-w) * 334 / 1478);
+  --logo-clear: calc(var(--logo-top) + var(--logo-h) + clamp(1.5rem, 4vh, 2.6rem));
+
+  /* Stripes hold brand orange the whole way down — it measured above 3:1 on
+     both the night sky and the cream. The wordmark can't: #0A4FD1 sits at
+     2.04:1 on the violet, so it rides white and lands on brand blue. */
+  --logo-stripe: #FB3806;
+  --logo-word:   #FFFFFF;
+}
+
+*{ box-sizing: border-box; }
+
+body{
+  margin: 0;
+  background: var(--night);
+  color: var(--cream);
+  font-family: var(--body);
+  font-size: clamp(1rem, .93rem + .34vw, 1.14rem);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+[data-ink="light"]{
+  color: var(--cream);
+  --hair: rgba(243,234,218,.28);
+  --dim:  rgba(243,234,218,.74);
+  --key:  var(--gold);
+}
+[data-ink="dark"]{
+  color: var(--ink);
+  --hair: rgba(21,19,48,.22);
+  --dim:  rgba(21,19,48,.66);
+  --key:  var(--cobalt);
+}
+
+/* ============================ SKY ============================ */
+.sky{
+  position: fixed; inset: 0; z-index: -3;
+  background: linear-gradient(to bottom, var(--sky-top) 0%, var(--sky-mid) 46%, var(--sky-bot) 100%);
+}
+#stars{
+  position: fixed; inset: 0; z-index: -2;
+  width: 100%; height: 100%;
+  opacity: var(--star-op); pointer-events: none;
+}
+.sun{
+  position: fixed; z-index: -2;
+  left: 50%; width: min(44vh, 32vw); aspect-ratio: 1;
+  bottom: calc(-24% + var(--sun-y) * 42%);
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background: radial-gradient(circle at 50% 50%,
+              #FFF3D6 0%, var(--gold) 38%, var(--amber) 62%, var(--verm) 100%);
+  box-shadow: 0 0 18vh calc(6vh * var(--sun-glow)) rgba(240,166,60,.42);
+  opacity: var(--sun-glow);
+}
+.ridges{
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: -1;
+  pointer-events: none; min-width: 62rem;
+}
+.ridges svg{ display: block; width: 100%; height: auto; }
+.r1{ fill: var(--ridge-3); }
+.r2{ fill: var(--ridge-2); }
+.r3{ fill: var(--ridge-1); }
+
+.grain{
+  position: fixed; inset: -50%; z-index: 60;
+  pointer-events: none; opacity: .15;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.82' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='220' height='220' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* ============================ RAIL ============================ */
+.railbar{
+  position: fixed; left: 0; top: 0; bottom: 0; width: var(--rail);
+  z-index: 40; pointer-events: none;
+  display: flex; flex-direction: column; align-items: center;
+  justify-content: space-between; padding: 1.15rem 0;
+  mix-blend-mode: difference; color: #fff;
+}
+.railbar__mark, .railbar__time{
+  font-family: var(--data);
+  font-size: .58rem; letter-spacing: .19em; text-transform: uppercase;
+  writing-mode: vertical-rl; opacity: .8;
+}
+.railbar__time{ font-variant-numeric: tabular-nums; letter-spacing: .26em; }
+.railbar__track{
+  flex: 1; width: 3px; margin: 1.1rem 0; border-radius: 2px;
+  background: linear-gradient(to bottom,
+    #2E2A62 0%, var(--violet) 26%, var(--rose) 50%,
+    var(--verm) 70%, var(--amber) 85%, var(--gold) 100%);
+  opacity: .55; position: relative;
+}
+.railbar__dot{
+  position: absolute; left: 50%; top: 0;
+  width: 11px; height: 11px; margin-left: -5.5px; margin-top: -5.5px;
+  border-radius: 50%; background: #fff;
+}
+
+/* ============================ LAYOUT ============================ */
+main{ position: relative; z-index: 10; }
+
+.sec{
+  min-height: 100svh;
+  /* top padding never lets content slide under the fixed lockup */
+  padding: max(clamp(3.4rem, 10vh, 7rem), var(--logo-clear))
+           var(--gut)
+           clamp(3.4rem, 10vh, 7rem)
+           calc(var(--rail) + var(--gut) * .5);
+  display: flex; flex-direction: column; justify-content: center;
+}
+.wrap{ width: 100%; max-width: 72rem; margin: 0 auto; }
+.copy{ max-width: var(--measure); }
+
+.eyebrow{
+  font-family: var(--data);
+  font-size: .64rem; letter-spacing: .3em; text-transform: uppercase;
+  color: var(--dim);
+  display: flex; align-items: center; gap: .7rem;
+  margin: 0 0 1.5rem;
+}
+.eyebrow::after{ content:""; flex:1; height:1px; background: var(--hair); max-width: 9rem; }
+
+h2{
+  font-family: var(--display); font-weight: 400;
+  /* Nighty is far wider than the condensed grotesk it replaced, so the
+     ceiling comes down and the fake oblique goes — this face has its own. */
+  font-size: clamp(2rem, 1rem + 4.4vw, 4.1rem);
+  line-height: 1.02; letter-spacing: 0;
+  /* Nighty's space glyph is almost nothing at these sizes — without this
+     the caps run together into SAYA BIG NUMBER OUTLOUD */
+  word-spacing: .16em;
+  text-transform: uppercase; text-wrap: balance;
+  margin: 0 0 1.3rem;
+}
+.lede{ font-size: 1.1em; line-height: 1.5; }
+p{ margin: 0 0 1rem; color: var(--dim); }
+p strong{ color: inherit; font-weight: 600; }
+.pull{
+  font-family: var(--display); font-weight: 400;
+  text-transform: uppercase;
+  font-size: clamp(1.1rem, .8rem + 1.2vw, 1.6rem);
+  line-height: 1.18; letter-spacing: 0; word-spacing: .16em;
+  color: var(--key);
+  border-left: 4px solid var(--verm);
+  padding-left: 1.05rem; margin: 1.9rem 0 0; max-width: 30rem;
+}
+
+/* ============================ 1. THE ALARM ============================ */
+.open{ align-items: center; text-align: center; }
+.open .eyebrow{ justify-content: center; }
+.open .eyebrow::after{ display: none; }
+
+.clock{
+  --cw: min(92vw, 42rem);
+  --lcd: calc(var(--cw) * .168);
+  width: var(--cw); margin: 0 auto;
+  display: block; border: 0; padding: 0; background: none;
+  cursor: pointer; -webkit-tap-highlight-color: transparent;
+}
+.clock__art{ position: relative; display: block; will-change: transform; }
+.clock__svg{ display: block; width: 100%; height: auto; overflow: visible; }
+
+.body-fill{ fill: #F6A03A; }
+.top-fill{ fill: #FCBA64; }
+.side-fill{ fill: #DE8628; }
+.btn-fill{ fill: #FCBA64; }
+.screen-fill{ fill: #121214; }
+.outline{ stroke: #121214; stroke-width: 11; stroke-linejoin: round; stroke-linecap: round; }
+.wave{
+  fill: none; stroke: #121214; stroke-width: 17;
+  stroke-linecap: round; opacity: 0;
+  transition: opacity .25s ease;
+}
+
+/* the shake — idle until you hover, focus, or start scrolling */
+@keyframes ring{
+  0%   { transform: translate(0,0) rotate(0deg); }
+  14%  { transform: translate(-1.1%, .5%) rotate(-1.5deg); }
+  28%  { transform: translate(1.1%, -.4%) rotate(1.5deg); }
+  42%  { transform: translate(-.9%, .3%) rotate(-1.1deg); }
+  56%  { transform: translate(.9%, -.3%) rotate(1.1deg); }
+  70%  { transform: translate(-.5%, .2%) rotate(-.6deg); }
+  84%  { transform: translate(.5%, -.2%) rotate(.6deg); }
+  100% { transform: translate(0,0) rotate(0deg); }
+}
+@keyframes waves{ from{ opacity: .2 } to{ opacity: 1 } }
+
+.clock:hover  .clock__art,
+.clock:focus-visible .clock__art,
+.clock.is-ringing .clock__art{ animation: ring .34s linear infinite; }
+
+.clock:hover  .wave,
+.clock:focus-visible .wave,
+.clock.is-ringing .wave{ opacity: 1; animation: waves .17s steps(2) infinite alternate; }
+
+.clock:focus-visible{ outline: 3px solid var(--gold); outline-offset: 1.2rem; }
+
+/* the screen sits exactly over the black rect in the SVG */
+.screen{
+  position: absolute;
+  left: 22.857%; top: 36.25%;
+  width: 59.286%; height: 53.281%;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  gap: calc(var(--lcd) * .07);
+  pointer-events: none;
+}
+.clock__day{
+  font-family: var(--body); font-weight: 700;
+  font-size: calc(var(--lcd) * .175);
+  letter-spacing: .08em; color: #F7F2E6;
+}
+
+/* ---------- nine-segment display: the seven, plus two diagonals,
+              so K renders as an actual K ---------- */
+.lcd{ display: flex; align-items: center; gap: calc(var(--lcd) * .1); }
+.ch{
+  position: relative;
+  width: calc(var(--lcd) * .66); height: var(--lcd);
+  --t: calc(var(--lcd) * .135);
+}
+.sg{ position: absolute; background: #1B1B1E; transition: background .2s ease; }
+.sg.on{ background: #F7F2E6; }
+.sg.h{
+  left: var(--t); width: calc(100% - var(--t) * 2); height: var(--t);
+  clip-path: polygon(0% 50%, 20% 0%, 80% 0%, 100% 50%, 80% 100%, 20% 100%);
+}
+.sg.v{
+  width: var(--t); height: calc(50% - var(--t) * 1.5);
+  clip-path: polygon(50% 0%, 100% 20%, 100% 80%, 50% 100%, 0% 80%, 0% 20%);
+}
+.sg.a{ top: 0; }
+.sg.g{ top: calc(50% - var(--t) / 2); }
+.sg.d{ bottom: 0; }
+.sg.f{ left: 0; top: calc(var(--t) * 1.02); }
+.sg.b{ right: 0; top: calc(var(--t) * 1.02); }
+.sg.e{ left: 0; bottom: calc(var(--t) * 1.02); }
+.sg.c{ right: 0; bottom: calc(var(--t) * 1.02); }
+.sg.x, .sg.y{
+  width: var(--t); height: 74%; left: 0;
+  clip-path: polygon(50% 0%, 100% 18%, 100% 82%, 50% 100%, 0% 82%, 0% 18%);
+}
+.sg.x{ bottom: 50%; transform-origin: 50% 100%; transform: rotate(48deg); }
+.sg.y{ top: 50%;    transform-origin: 50% 0%;   transform: rotate(-48deg); }
+
+.colon{
+  display: flex; flex-direction: column; justify-content: center;
+  gap: calc(var(--lcd) * .2); padding: 0 calc(var(--lcd) * .04);
+}
+.colon i{
+  width: calc(var(--lcd) * .125); aspect-ratio: 1;
+  background: #F7F2E6; border-radius: 1px;
+  animation: blink 1.6s steps(1) infinite;
+}
+@keyframes blink{ 0%,49%{ opacity: 1 } 50%,100%{ opacity: .1 } }
+
+.open__cap{
+  font-family: var(--data); font-size: .68rem;
+  letter-spacing: .22em; text-transform: uppercase;
+  color: rgba(243,234,218,.62); margin-top: 2.2rem;
+}
+.open__sub{
+  max-width: 34rem; margin: .9rem auto 0;
+  color: rgba(243,234,218,.78); font-size: 1.02em;
+}
+.cue{
+  margin-top: 2.2rem;
+  font-family: var(--data); font-size: .6rem;
+  letter-spacing: .3em; text-transform: uppercase;
+  color: rgba(243,234,218,.44);
+  display: flex; flex-direction: column; align-items: center; gap: .6rem;
+}
+.cue span{
+  display: block; width: 1px; height: 2.4rem;
+  background: linear-gradient(rgba(243,234,218,.5), transparent);
+  animation: drop 2.4s ease-in-out infinite;
+}
+@keyframes drop{ 0%,100%{ transform: scaleY(.4); transform-origin: top } 50%{ transform: scaleY(1); transform-origin: top } }
+
+/* ============================ THE LOCKUP ============================
+   Real vector artwork, inlined so both colours stay addressable from CSS
+   and it stays sharp at any size. */
+.logo{
+  position: fixed; z-index: 50;
+  top: var(--logo-top); left: 50%;
+  transform: translateX(-50%);
+  width: var(--logo-w);
+  pointer-events: none;
+}
+.logo svg{ display: block; width: 100%; height: auto; }
+.lg-bar{ fill: var(--logo-stripe); }
+.lg-word{ fill: var(--logo-word); }
+
+/* ============================ 3. THE BRIEF ============================ */
+.brief__grid{
+  display: grid; gap: clamp(2rem, 4.5vw, 4rem);
+  grid-template-columns: minmax(0, 1fr); align-items: start;
+}
+@media (min-width: 62rem){ .brief__grid{ grid-template-columns: 1.1fr .9fr; } }
+
+dl.specs{ margin: 1.6rem 0 0; display: grid; gap: 0; }
+.specs div{
+  display: grid; grid-template-columns: 7.5rem 1fr; gap: 1rem;
+  padding: .72rem 0; border-top: 1px solid var(--hair); align-items: baseline;
+}
+.specs div:last-child{ border-bottom: 1px solid var(--hair); }
+.specs dt{
+  font-family: var(--data); font-size: .61rem;
+  letter-spacing: .22em; text-transform: uppercase; color: var(--dim);
+}
+.specs dd{ margin: 0; font-size: 1em; }
+.specs dd em{ font-style: normal; color: var(--key); }
+
+.countdown{ border: 1px solid var(--hair); padding: 1.4rem 1.5rem 1.2rem; }
+.countdown__label{
+  font-family: var(--data); font-size: .6rem;
+  letter-spacing: .26em; text-transform: uppercase; color: var(--dim);
+  margin-bottom: .9rem;
+}
+.cd{ display: flex; gap: clamp(.9rem, 2.2vw, 1.6rem); }
+.cd div{ display: flex; flex-direction: column; gap: .35rem; }
+.cd b{
+  /* Nighty has no numerals — pinned so this reads as a deliberate
+     data/display split rather than an accidental fallback. */
+  font-family: var(--grotesk); font-weight: 400;
+  font-size: clamp(1.9rem, 1.2rem + 2.8vw, 3.3rem); line-height: .84;
+  font-variant-numeric: tabular-nums; transform: skewX(-6deg); color: var(--key);
+}
+.cd span{
+  font-family: var(--data); font-size: .55rem;
+  letter-spacing: .2em; text-transform: uppercase; color: var(--dim);
+}
+
+/* ============================ THE COLD ============================
+   Single-series panel. Numerals ride --grotesk because Nighty has no
+   digits; the curve is one gold line — vermilion measured 2.5:1 against
+   this violet ground and was dropped rather than labelled around. */
+.wx{ border: 1px solid var(--hair); padding: 1.4rem 1.5rem 1.2rem; margin-top: 1.1rem; }
+.wx__now{ display: flex; align-items: baseline; gap: .35rem; margin: .35rem 0 0; }
+.wx__now b{
+  font-family: var(--grotesk); font-weight: 400;
+  font-size: clamp(2.3rem, 1.5rem + 2.8vw, 3.4rem); line-height: .84;
+  font-variant-numeric: tabular-nums; color: var(--key);
+}
+.wx__deg{ font-family: var(--data); font-size: .82rem; color: var(--key); }
+.wx__at{
+  font-family: var(--data); font-size: .55rem; letter-spacing: .2em;
+  text-transform: uppercase; color: var(--dim); margin-left: auto;
+  font-variant-numeric: tabular-nums;
+}
+.wx__curve{
+  display: block; width: 100%; height: auto;
+  margin: .5rem 0 0; overflow: visible; touch-action: none; cursor: crosshair;
+}
+.wx__stats{ display: grid; grid-template-columns: repeat(3, 1fr); gap: .9rem; margin: .95rem 0 0; }
+.wx__stats div{ border-top: 1px solid var(--hair); padding-top: .5rem; }
+.wx__stats dt{
+  font-family: var(--data); font-size: .49rem; letter-spacing: .15em;
+  text-transform: uppercase; color: var(--dim); line-height: 1.4;
+}
+.wx__stats dd{
+  margin: .3rem 0 0; font-family: var(--grotesk);
+  font-size: 1.3rem; line-height: 1; font-variant-numeric: tabular-nums;
+}
+.wx__src{
+  font-family: var(--data); font-size: .47rem; letter-spacing: .12em;
+  text-transform: uppercase; color: var(--dim); margin: 1rem 0 0; line-height: 1.6;
+}
+.vh{
+  position: absolute; width: 1px; height: 1px; overflow: hidden;
+  clip-path: inset(50%); white-space: nowrap;
+}
+
+/* ============================ 4. FINALE ============================ */
+.finale{ justify-content: space-between; gap: 3rem; }
+.stack{
+  font-family: var(--display); font-weight: 400;
+  font-size: clamp(2.8rem, 12.5vw, 9.5rem);
+  line-height: .95; text-transform: uppercase;
+  letter-spacing: 0; margin: 0;
+}
+.stack span{ display: block; }
+.stack span:nth-child(2){ color: var(--verm); padding-left: .12em; }
+.stack span:nth-child(4){ color: var(--cobalt); padding-left: .18em; }
+.finale__line{ margin-top: 1.6rem; max-width: 27rem; font-size: 1.05em; }
+
+.colo__rule{ display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.8rem; }
+.colo__rule i{ height: 4px; }
+
+/* ============================ REVEALS ============================ */
+.rv{
+  opacity: 0; transform: translateY(24px);
+  transition: opacity .85s cubic-bezier(.16,.84,.44,1), transform .85s cubic-bezier(.16,.84,.44,1);
+}
+.rv.in{ opacity: 1; transform: none; }
+.rv-2{ transition-delay: .1s; }
+.rv-3{ transition-delay: .2s; }
+
+:focus-visible{ outline: 3px solid var(--verm); outline-offset: 3px; }
+
+@media (max-width: 46rem){
+  :root{ --rail: 2.6rem; }
+  .railbar__mark{ display: none; }
+  .specs div{ grid-template-columns: 6rem 1fr; gap: .8rem; }
+}
+
+@media (prefers-reduced-motion: reduce){
+  *, *::before, *::after{
+    animation-duration: .001ms !important; animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important;
+  }
+  .rv{ opacity: 1; transform: none; }
+  .wave{ opacity: 1; }
+}
+</style>
+
+<div class="sky" aria-hidden="true"></div>
+<canvas id="stars" aria-hidden="true"></canvas>
+<div class="sun" aria-hidden="true"></div>
+<div class="ridges" aria-hidden="true">
+  <svg viewBox="0 0 1440 400" preserveAspectRatio="xMidYMax meet" role="presentation">
+    <path class="r1" d="M0,300 L120,300 L152,254 L300,254 L332,300 L520,300 L562,238 L706,238 L740,300 L900,300 L932,266 L1082,266 L1114,300 L1440,300 L1440,400 L0,400 Z"/>
+    <path class="r2" d="M0,332 L200,332 L242,289 L420,289 L458,332 L762,332 L802,281 L980,281 L1018,332 L1440,332 L1440,400 L0,400 Z"/>
+    <path class="r3" d="M0,363 L380,363 L422,341 L620,341 L652,363 L1150,363 L1192,349 L1440,349 L1440,400 L0,400 Z"/>
+  </svg>
+</div>
+<div class="grain" aria-hidden="true"></div>
+
+<div class="logo" role="img" aria-label="Karoo Crawl">
+  <svg viewBox="0 0 1478 334" aria-hidden="true">
+  <g fill-rule="evenodd" clip-rule="evenodd">
+  <path d="M 12 310 L 12 321 L 1465 321 L 1465 310 Z M 12 290 L 12 302 L 1465 302 L 1465 290 Z M 12 271 L 12 282 L 1465 282 L 1465 271 Z M 1453 52 L 1452 63 L 1465 63 L 1465 52 Z M 149 63 L 1387 63 L 1388 52 L 150 52 L 149 53 Z M 91 51 L 88 51 L 87 52 L 12 52 L 12 63 L 91 63 Z M 1454 32 L 1454 42 L 1453 43 L 1454 44 L 1465 44 L 1465 32 Z M 149 33 L 150 34 L 150 42 L 149 43 L 150 44 L 1388 44 L 1388 40 L 1389 39 L 1389 32 L 150 32 Z M 12 44 L 91 44 L 91 35 L 92 34 L 94 34 L 94 33 L 92 34 L 91 32 L 12 32 Z M 1456 13 L 1455 14 L 1455 24 L 1465 24 L 1465 13 Z M 150 24 L 1390 24 L 1390 15 L 1391 14 L 1390 13 L 150 13 Z M 12 13 L 12 24 L 91 24 L 91 13 Z" class="lg-bar"/>
+  <path d="M 522 111 L 523 112 L 522 114 L 522 119 L 521 120 L 521 124 L 520 125 L 520 129 L 519 130 L 519 135 L 518 136 L 518 140 L 517 141 L 517 146 L 516 147 L 516 151 L 515 152 L 515 156 L 514 157 L 514 162 L 513 163 L 513 167 L 512 168 L 512 172 L 511 173 L 511 177 L 510 178 L 510 182 L 509 183 L 509 188 L 508 189 L 508 193 L 507 194 L 507 198 L 506 199 L 506 204 L 505 205 L 505 209 L 504 210 L 504 214 L 503 215 L 503 220 L 501 223 L 493 223 L 492 222 L 492 220 L 493 219 L 493 215 L 494 214 L 494 209 L 495 208 L 495 204 L 496 203 L 496 199 L 497 198 L 497 193 L 498 192 L 498 188 L 499 187 L 499 182 L 500 181 L 500 177 L 501 176 L 501 172 L 502 171 L 502 167 L 503 166 L 503 162 L 504 161 L 504 156 L 505 155 L 505 151 L 506 150 L 506 145 L 507 144 L 507 140 L 508 139 L 508 135 L 509 134 L 509 130 L 510 129 L 510 125 L 511 124 L 512 115 L 514 111 Z M 669 111 L 670 112 L 670 114 L 669 115 L 669 120 L 668 121 L 668 125 L 667 126 L 667 130 L 666 131 L 666 135 L 665 136 L 665 140 L 664 141 L 664 145 L 663 146 L 663 151 L 662 152 L 662 155 L 661 156 L 661 161 L 660 162 L 660 166 L 659 167 L 659 171 L 658 172 L 658 176 L 657 177 L 657 181 L 656 182 L 655 191 L 654 192 L 654 195 L 653 196 L 653 201 L 652 202 L 652 206 L 651 207 L 651 211 L 650 212 L 649 221 L 647 223 L 639 223 L 638 221 L 639 220 L 639 216 L 640 215 L 640 210 L 641 209 L 641 205 L 642 204 L 642 201 L 643 200 L 643 195 L 644 194 L 644 190 L 645 189 L 645 186 L 646 185 L 646 181 L 647 180 L 647 176 L 648 175 L 648 170 L 649 169 L 649 165 L 650 164 L 651 155 L 652 154 L 652 151 L 653 150 L 654 140 L 655 139 L 655 135 L 656 134 L 656 130 L 657 129 L 657 125 L 658 124 L 659 115 L 660 114 L 660 112 L 662 110 L 664 111 Z M 1206 73 L 1205 74 L 1205 83 L 1204 84 L 1203 111 L 1202 112 L 1202 122 L 1201 123 L 1201 135 L 1200 136 L 1200 147 L 1199 148 L 1199 159 L 1198 160 L 1198 172 L 1197 173 L 1196 199 L 1195 200 L 1195 211 L 1194 212 L 1194 225 L 1193 226 L 1193 237 L 1192 238 L 1192 245 L 1193 246 L 1194 251 L 1196 253 L 1196 254 L 1202 259 L 1204 260 L 1207 260 L 1208 261 L 1353 261 L 1354 260 L 1357 260 L 1362 257 L 1368 250 L 1368 248 L 1370 244 L 1370 233 L 1371 232 L 1371 221 L 1372 220 L 1372 210 L 1373 209 L 1373 199 L 1374 198 L 1374 187 L 1375 186 L 1375 175 L 1376 174 L 1376 162 L 1377 161 L 1377 151 L 1378 150 L 1378 138 L 1379 137 L 1379 126 L 1380 125 L 1380 113 L 1381 112 L 1381 100 L 1382 99 L 1382 83 L 1380 79 L 1375 74 L 1373 74 L 1372 73 L 1334 73 L 1334 75 L 1333 76 L 1333 82 L 1332 83 L 1332 89 L 1331 90 L 1331 95 L 1330 96 L 1330 101 L 1329 102 L 1329 108 L 1328 109 L 1328 114 L 1327 115 L 1327 120 L 1326 121 L 1326 126 L 1325 127 L 1325 133 L 1324 134 L 1324 139 L 1323 140 L 1323 146 L 1322 147 L 1322 152 L 1321 153 L 1321 159 L 1320 160 L 1320 165 L 1319 166 L 1319 171 L 1318 172 L 1318 178 L 1317 179 L 1317 184 L 1316 185 L 1316 191 L 1315 192 L 1315 197 L 1314 198 L 1314 204 L 1313 205 L 1313 210 L 1312 211 L 1311 222 L 1310 223 L 1302 223 L 1301 222 L 1301 218 L 1302 217 L 1302 211 L 1303 210 L 1303 205 L 1304 204 L 1304 198 L 1305 197 L 1305 192 L 1306 191 L 1306 185 L 1307 184 L 1307 179 L 1308 178 L 1308 173 L 1309 172 L 1309 166 L 1310 165 L 1310 159 L 1311 158 L 1311 153 L 1312 152 L 1312 146 L 1313 145 L 1313 139 L 1314 138 L 1314 133 L 1315 132 L 1315 126 L 1316 125 L 1316 120 L 1317 119 L 1317 114 L 1318 113 L 1318 107 L 1319 106 L 1320 93 L 1321 92 L 1321 87 L 1322 86 L 1323 73 L 1271 73 L 1270 74 L 1269 86 L 1268 87 L 1267 99 L 1266 100 L 1266 105 L 1265 106 L 1265 111 L 1264 112 L 1264 118 L 1263 119 L 1263 124 L 1262 125 L 1262 130 L 1261 131 L 1260 144 L 1259 145 L 1259 150 L 1258 151 L 1258 156 L 1257 157 L 1257 163 L 1256 164 L 1256 170 L 1255 171 L 1255 176 L 1254 177 L 1254 183 L 1253 184 L 1253 189 L 1252 190 L 1252 195 L 1251 196 L 1251 202 L 1250 203 L 1250 208 L 1249 209 L 1248 221 L 1246 223 L 1239 223 L 1238 222 L 1238 216 L 1239 215 L 1240 203 L 1241 202 L 1241 197 L 1242 196 L 1242 190 L 1243 189 L 1243 184 L 1244 183 L 1244 178 L 1245 177 L 1246 164 L 1247 163 L 1247 158 L 1248 157 L 1248 151 L 1249 150 L 1249 144 L 1250 143 L 1250 138 L 1251 137 L 1251 131 L 1252 130 L 1252 125 L 1253 124 L 1253 119 L 1254 118 L 1254 112 L 1255 111 L 1255 105 L 1256 104 L 1256 98 L 1257 97 L 1257 91 L 1258 90 L 1258 85 L 1259 84 L 1260 73 Z M 1071 76 L 1065 82 L 1063 86 L 1063 89 L 1062 90 L 1062 102 L 1061 103 L 1061 115 L 1060 116 L 1060 130 L 1059 131 L 1059 139 L 1119 139 L 1120 138 L 1121 130 L 1122 129 L 1122 123 L 1123 122 L 1124 112 L 1126 110 L 1133 110 L 1134 111 L 1134 114 L 1133 115 L 1133 121 L 1132 122 L 1132 127 L 1131 128 L 1130 139 L 1129 140 L 1129 144 L 1128 145 L 1128 151 L 1127 152 L 1127 156 L 1126 157 L 1126 162 L 1125 163 L 1125 168 L 1124 169 L 1124 174 L 1123 175 L 1122 186 L 1121 187 L 1121 191 L 1120 192 L 1119 203 L 1118 204 L 1118 208 L 1117 209 L 1116 220 L 1114 223 L 1107 223 L 1106 222 L 1106 216 L 1107 215 L 1107 210 L 1108 209 L 1108 205 L 1109 204 L 1109 199 L 1110 198 L 1110 193 L 1111 192 L 1111 187 L 1112 186 L 1112 181 L 1113 180 L 1113 176 L 1114 175 L 1114 170 L 1115 169 L 1115 164 L 1116 163 L 1116 159 L 1117 158 L 1117 153 L 1118 152 L 1118 149 L 1071 149 L 1070 150 L 1066 151 L 1060 157 L 1057 164 L 1057 175 L 1056 176 L 1056 187 L 1055 188 L 1055 200 L 1054 201 L 1054 213 L 1053 214 L 1052 238 L 1051 239 L 1052 248 L 1054 252 L 1056 254 L 1056 255 L 1063 260 L 1066 260 L 1067 261 L 1164 261 L 1165 260 L 1170 259 L 1176 254 L 1176 253 L 1180 248 L 1180 245 L 1181 244 L 1182 222 L 1183 221 L 1183 209 L 1184 208 L 1185 185 L 1186 184 L 1186 173 L 1187 172 L 1187 160 L 1188 159 L 1188 149 L 1189 148 L 1190 122 L 1191 121 L 1191 110 L 1192 109 L 1192 96 L 1193 95 L 1193 90 L 1192 89 L 1192 86 L 1190 82 L 1184 76 L 1177 73 L 1079 73 L 1078 74 L 1075 74 Z M 1046 76 L 1039 73 L 941 73 L 934 76 L 929 80 L 925 88 L 925 96 L 924 97 L 924 111 L 923 112 L 922 140 L 921 141 L 920 169 L 919 170 L 919 186 L 918 187 L 918 200 L 917 201 L 917 213 L 916 214 L 916 226 L 915 227 L 915 241 L 914 242 L 914 257 L 913 258 L 913 261 L 966 261 L 967 249 L 968 248 L 968 241 L 969 240 L 969 233 L 970 232 L 970 225 L 971 224 L 971 218 L 972 217 L 972 210 L 973 209 L 973 203 L 974 202 L 974 195 L 975 194 L 975 187 L 976 186 L 977 172 L 978 171 L 978 164 L 979 163 L 979 157 L 980 156 L 981 144 L 982 143 L 982 136 L 983 135 L 983 129 L 984 128 L 984 121 L 985 120 L 985 115 L 987 111 L 994 111 L 995 112 L 995 119 L 994 120 L 993 134 L 992 135 L 991 147 L 990 148 L 990 155 L 989 156 L 989 163 L 988 164 L 988 172 L 987 173 L 1038 173 L 1042 171 L 1046 167 L 1049 160 L 1049 148 L 1050 147 L 1051 124 L 1052 123 L 1053 101 L 1054 100 L 1054 89 L 1053 88 L 1053 85 L 1051 81 Z M 790 76 L 784 82 L 782 86 L 782 89 L 781 90 L 781 100 L 780 101 L 780 115 L 779 116 L 779 130 L 778 131 L 778 144 L 777 145 L 776 171 L 775 172 L 774 202 L 773 203 L 773 217 L 772 218 L 772 232 L 771 233 L 771 245 L 774 252 L 778 257 L 783 260 L 786 260 L 787 261 L 884 261 L 885 260 L 888 260 L 892 258 L 900 249 L 901 243 L 902 242 L 902 228 L 903 227 L 903 215 L 904 214 L 904 203 L 905 202 L 905 188 L 906 187 L 906 184 L 905 183 L 843 183 L 842 185 L 842 190 L 841 191 L 841 196 L 840 197 L 840 202 L 839 203 L 839 208 L 838 209 L 837 221 L 835 223 L 828 223 L 827 222 L 827 216 L 828 215 L 828 210 L 829 209 L 829 204 L 830 203 L 830 198 L 831 197 L 831 191 L 832 190 L 832 185 L 833 184 L 833 179 L 834 178 L 834 172 L 835 171 L 835 166 L 836 165 L 836 160 L 837 159 L 837 153 L 838 152 L 838 147 L 839 146 L 839 140 L 840 139 L 841 126 L 842 125 L 842 120 L 843 119 L 843 113 L 845 111 L 852 111 L 853 112 L 853 118 L 852 119 L 851 132 L 850 133 L 849 145 L 848 146 L 848 151 L 847 152 L 847 158 L 846 159 L 846 164 L 845 165 L 845 172 L 844 173 L 845 174 L 846 173 L 896 173 L 903 169 L 908 161 L 908 153 L 909 152 L 909 140 L 910 139 L 910 127 L 911 126 L 911 115 L 912 114 L 912 102 L 913 101 L 913 88 L 912 87 L 911 83 L 906 77 L 901 74 L 898 74 L 897 73 L 797 73 Z M 603 77 L 597 84 L 596 86 L 596 89 L 595 90 L 595 101 L 594 102 L 594 117 L 593 118 L 593 130 L 592 131 L 592 143 L 591 144 L 590 169 L 589 170 L 588 194 L 587 195 L 587 206 L 586 207 L 586 220 L 585 221 L 585 233 L 584 234 L 584 246 L 585 247 L 586 251 L 591 257 L 596 260 L 599 260 L 600 261 L 699 261 L 706 258 L 714 249 L 715 243 L 716 242 L 716 230 L 717 229 L 718 207 L 719 206 L 719 195 L 720 194 L 720 184 L 721 183 L 721 171 L 722 170 L 722 159 L 723 158 L 724 136 L 725 135 L 725 123 L 726 122 L 726 111 L 727 110 L 727 99 L 728 98 L 728 89 L 725 82 L 722 78 L 712 73 L 612 73 Z M 461 75 L 453 82 L 450 89 L 450 97 L 449 98 L 449 112 L 448 113 L 448 126 L 447 127 L 447 140 L 446 141 L 446 154 L 445 155 L 444 181 L 443 182 L 443 195 L 442 196 L 442 209 L 441 210 L 441 224 L 440 225 L 440 239 L 439 240 L 440 246 L 443 253 L 448 258 L 452 260 L 455 260 L 456 261 L 554 261 L 561 258 L 566 254 L 571 244 L 572 220 L 573 219 L 573 207 L 574 206 L 574 195 L 575 194 L 575 183 L 576 182 L 576 170 L 577 169 L 577 156 L 578 155 L 578 144 L 579 143 L 579 130 L 580 129 L 580 117 L 581 116 L 581 102 L 582 101 L 582 88 L 579 82 L 576 78 L 566 73 L 467 73 L 466 74 Z M 426 74 L 423 74 L 422 73 L 319 73 L 312 76 L 308 79 L 303 89 L 303 106 L 302 107 L 302 123 L 301 124 L 301 142 L 300 143 L 300 160 L 299 161 L 299 178 L 298 179 L 298 195 L 297 196 L 297 215 L 296 216 L 296 233 L 295 234 L 295 252 L 294 253 L 294 261 L 348 261 L 349 248 L 350 247 L 350 239 L 351 238 L 352 224 L 353 223 L 353 216 L 354 215 L 354 209 L 355 208 L 355 202 L 356 201 L 356 193 L 357 192 L 357 186 L 358 185 L 358 176 L 359 175 L 359 169 L 360 168 L 360 161 L 361 160 L 361 154 L 362 153 L 362 146 L 363 145 L 363 139 L 364 138 L 364 132 L 365 131 L 366 117 L 367 116 L 367 112 L 368 111 L 375 111 L 376 112 L 376 120 L 375 121 L 375 128 L 374 129 L 374 136 L 373 137 L 373 143 L 372 144 L 372 151 L 371 152 L 371 160 L 370 161 L 370 168 L 369 169 L 369 173 L 422 173 L 423 172 L 425 172 L 430 168 L 433 162 L 434 136 L 435 135 L 435 122 L 436 121 L 436 106 L 437 105 L 437 87 L 433 79 Z M 166 75 L 160 80 L 157 85 L 157 88 L 156 89 L 156 106 L 155 107 L 155 131 L 154 132 L 154 138 L 155 139 L 216 139 L 217 138 L 217 133 L 218 132 L 219 120 L 220 119 L 220 114 L 222 111 L 229 111 L 230 112 L 230 117 L 229 118 L 229 124 L 228 125 L 228 130 L 227 131 L 227 136 L 226 137 L 226 143 L 225 144 L 225 150 L 224 151 L 224 156 L 223 157 L 223 162 L 222 163 L 222 169 L 221 170 L 221 175 L 220 176 L 220 181 L 219 182 L 219 187 L 218 188 L 218 193 L 217 194 L 217 199 L 216 200 L 216 205 L 215 206 L 215 211 L 214 212 L 214 218 L 213 219 L 213 222 L 212 223 L 204 223 L 203 222 L 203 220 L 204 219 L 204 214 L 205 213 L 205 208 L 206 207 L 206 202 L 207 201 L 207 195 L 208 194 L 208 189 L 209 188 L 209 183 L 210 182 L 211 170 L 212 169 L 212 165 L 213 164 L 213 158 L 214 157 L 214 152 L 215 151 L 215 149 L 168 149 L 161 152 L 157 156 L 154 163 L 154 178 L 153 179 L 153 200 L 152 201 L 152 223 L 151 224 L 151 245 L 152 246 L 152 249 L 153 251 L 158 257 L 163 260 L 166 260 L 167 261 L 265 261 L 266 260 L 269 260 L 273 258 L 279 252 L 282 245 L 283 215 L 284 214 L 284 199 L 285 198 L 285 182 L 286 181 L 286 164 L 287 163 L 287 146 L 288 145 L 288 129 L 289 128 L 289 110 L 290 109 L 290 87 L 288 83 L 285 80 L 285 79 L 284 79 L 281 76 L 274 73 L 172 73 L 171 74 L 168 74 Z M 1400 12 L 1399 13 L 1399 26 L 1398 27 L 1398 38 L 1397 39 L 1397 50 L 1396 51 L 1396 64 L 1395 65 L 1395 76 L 1394 77 L 1394 89 L 1393 90 L 1393 102 L 1392 103 L 1392 114 L 1391 115 L 1391 127 L 1390 128 L 1389 153 L 1388 154 L 1388 165 L 1387 166 L 1387 178 L 1386 179 L 1386 190 L 1385 191 L 1385 202 L 1384 203 L 1384 213 L 1383 214 L 1383 227 L 1382 228 L 1382 239 L 1381 240 L 1381 247 L 1382 248 L 1382 251 L 1385 256 L 1390 260 L 1392 260 L 1393 261 L 1430 261 L 1430 257 L 1431 256 L 1431 244 L 1432 243 L 1432 232 L 1433 231 L 1433 219 L 1434 218 L 1435 193 L 1436 192 L 1437 167 L 1438 166 L 1438 154 L 1439 153 L 1439 141 L 1440 140 L 1440 128 L 1441 127 L 1441 113 L 1442 112 L 1442 100 L 1443 99 L 1443 85 L 1444 84 L 1444 70 L 1445 69 L 1445 53 L 1446 52 L 1446 36 L 1447 35 L 1447 20 L 1448 19 L 1448 12 Z M 139 12 L 100 12 L 100 70 L 58 127 L 56 126 L 56 110 L 55 109 L 56 107 L 56 80 L 55 79 L 55 73 L 25 73 L 24 74 L 19 75 L 13 82 L 13 85 L 12 86 L 12 246 L 13 247 L 13 250 L 15 254 L 22 260 L 24 260 L 25 261 L 55 261 L 56 260 L 56 203 L 55 201 L 56 199 L 58 198 L 60 200 L 100 261 L 139 261 L 139 219 L 134 213 L 130 206 L 127 203 L 118 189 L 115 186 L 113 182 L 110 179 L 106 172 L 101 166 L 101 163 L 103 161 L 103 160 L 107 156 L 107 155 L 111 151 L 111 150 L 139 116 Z" class="lg-word"/>
+  </g>
+  </svg>
+</div>
+
+<div class="railbar" aria-hidden="true">
+  <div class="railbar__mark">Karoo Crawl · Ed. 01</div>
+  <div class="railbar__track"><span class="railbar__dot" id="dot"></span></div>
+  <div class="railbar__time" id="railtime">05:58</div>
+</div>
+
+<main>
+
+  <!-- 1 ─────────────────────────── the alarm ─────────────────────────── -->
+  <section class="sec open" data-ink="light">
+    <div class="wrap">
+      <p class="eyebrow">Tierkloof &nbsp;·&nbsp; 33°S &nbsp;·&nbsp; Western Cape</p>
+
+      <button class="clock" id="clock" type="button"
+              aria-label="Alarm clock reading FU colon KK on a Friday morning. Hover or scroll to set it off.">
+        <span class="clock__art">
+          <svg class="clock__svg" viewBox="0 0 1400 640" role="presentation">
+            <!-- ring waves -->
+            <g class="wave-l">
+              <path class="wave" d="M159,166 A130,130 0 0 1 251,74"/>
+              <path class="wave" d="M116,155 A175,175 0 0 1 240,31"/>
+            </g>
+            <g class="wave-r">
+              <path class="wave" d="M1219,74 A130,130 0 0 1 1311,166"/>
+              <path class="wave" d="M1230,31 A175,175 0 0 1 1354,155"/>
+            </g>
+            <!-- body: left side face, top face, front face -->
+            <path class="side-fill outline" d="M285,210 L200,140 L200,525 L285,595 Z"/>
+            <path class="top-fill outline"  d="M285,210 L1185,210 L1100,140 L200,140 Z"/>
+            <rect class="body-fill outline" x="285" y="210" width="900" height="385"/>
+            <!-- buttons on the top face -->
+            <path class="btn-fill outline" d="M860,199 L930,199 L896,171 L826,171 Z"/>
+            <path class="btn-fill outline" d="M960,199 L1090,199 L1056,171 L926,171 Z"/>
+            <!-- screen -->
+            <rect class="screen-fill" x="320" y="232" width="830" height="341"/>
+          </svg>
+          <span class="screen">
+            <span class="clock__day">FRI</span>
+            <span class="lcd" id="lcd"></span>
+          </span>
+        </span>
+      </button>
+
+      <p class="open__cap">You set this one yourself</p>
+      <p class="open__sub">Ten grown adults standing in a field above the Tankwa at five in the morning. No course, no medals, no crowd. Nobody asked for this and nobody is coming to watch.</p>
+      <div class="cue"><span></span>Keep going — the sun is not up either</div>
+    </div>
+  </section>
+
+  <!-- 2 ─────────────────────────── the brief ─────────────────────────── -->
+  <section class="sec" data-ink="light">
+    <div class="wrap brief__grid">
+      <div class="rv">
+        <p class="eyebrow">How this works</p>
+        <h2>Say a big number out loud then regret it</h2>
+        <p class="lede">Nobody hands you a distance. You stand around in the dark next to the bus, announce a number you cannot back up, and then run until your legs start filing complaints. There is no line to cross. You are done when you are done.</p>
+        <dl class="specs">
+          <div><dt>Place</dt><dd>Tierkloof, Swartruggens · Western Cape</dd></div>
+          <div><dt>Date</dt><dd>Friday 21 August 2026</dd></div>
+          <div><dt>Gun</dt><dd>05:00 — <em>2h 11m before sunrise</em></dd></div>
+          <div><dt>Field</dt><dd>Ten. Allegedly</dd></div>
+          <div><dt>Distance</dt><dd><em>Yours.</em> Wildly overstated at the start</dd></div>
+          <div><dt>Finish</dt><dd>The second you start walking</dd></div>
+        </dl>
+      </div>
+
+      <div class="rv rv-2">
+        <div class="countdown">
+          <div class="countdown__label">Time left to think of an excuse</div>
+          <div class="cd" id="cd">
+            <div><b id="cd-d">—</b><span>Days</span></div>
+            <div><b id="cd-h">—</b><span>Hrs</span></div>
+            <div><b id="cd-m">—</b><span>Min</span></div>
+            <div><b id="cd-s">—</b><span>Sec</span></div>
+          </div>
+        </div>
+        <div class="wx rv rv-3">
+          <div class="countdown__label">How cold it is going to be</div>
+          <div class="wx__now">
+            <b id="wx-t">7.7</b><span class="wx__deg">°C</span>
+            <span class="wx__at" id="wx-at">05:58</span>
+          </div>
+          <svg class="wx__curve" id="wx-curve" viewBox="0 0 320 104" role="img"
+               aria-label="Mean air temperature across a typical August day at Tierkloof. About 7 degrees at the 05:00 start, falling to a low of 6.5 degrees at 07:00 — just before sunrise — then climbing to roughly 18 degrees by mid-afternoon."></svg>
+          <dl class="wx__stats">
+            <div><dt>At the gun<br>05:00</dt><dd>7.0°</dd></div>
+            <div><dt>Coldest<br>07:00</dt><dd>6.5°</dd></div>
+            <div><dt>Swing<br>to 15:00</dt><dd>+11°</dd></div>
+          </dl>
+          <p class="wx__src">Hourly means · 11 Augusts 2015–2025 · ERA5 via Open-Meteo · 33.13°S 19.77°E · 649 m</p>
+          <div class="vh" id="wx-table"></div>
+        </div>
+
+        <p class="pull">No DNF out here just a number you never bring up again</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 ─────────────────────────── finale ─────────────────────────── -->
+  <section class="sec finale" data-ink="dark">
+    <div class="wrap">
+      <h2 class="stack rv"><span>Run</span><span>till</span><span>you</span><span>walk</span></h2>
+      <p class="finale__line rv rv-2">Then walk till you can run again. Or do not, honestly. The bakkie is somewhere behind you with the coffee and absolutely no opinion about your performance.</p>
+    </div>
+    <div class="wrap">
+      <div class="colo__rule rv">
+        <i style="background:#12163A"></i>
+        <i style="background:#6B2F63"></i>
+        <i style="background:#C9566B"></i>
+        <i style="background:#E8442A"></i>
+        <i style="background:#F0A63C"></i>
+        <i style="background:#F6C75E"></i>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<script>
+(() => {
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const root = document.documentElement;
+  const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
+
+  /* ---------------- nine-segment display ---------------- */
+  const SEGS = ['a','b','c','d','e','f','g','x','y'];
+  const MAP = {
+    '0':'abcdef', '1':'bc',     '2':'abged',  '3':'abgcd', '4':'fgbc',
+    '5':'afgcd',  '6':'afgecd', '7':'abc',    '8':'abcdefg','9':'abcdfg',
+    'F':'afge',   'U':'bcdef',  'K':'fexy',   ' ':''
+  };
+
+  const lcd = document.getElementById('lcd');
+  const chars = [];
+  function buildChar() {
+    const el = document.createElement('span');
+    el.className = 'ch';
+    const map = {};
+    SEGS.forEach(s => {
+      const seg = document.createElement('span');
+      const kind = 'abcdefg'.includes(s) ? ('adg'.includes(s) ? 'h' : 'v') : '';
+      seg.className = 'sg ' + s + (kind ? ' ' + kind : '');
+      el.appendChild(seg);
+      map[s] = seg;
+    });
+    chars.push(map);
+    return el;
+  }
+  lcd.appendChild(buildChar());
+  lcd.appendChild(buildChar());
+  const colon = document.createElement('span');
+  colon.className = 'colon';
+  colon.innerHTML = '<i></i><i></i>';
+  lcd.appendChild(colon);
+  lcd.appendChild(buildChar());
+  lcd.appendChild(buildChar());
+
+  let shown = '';
+  function display(text) {
+    if (text === shown) return;
+    shown = text;
+    for (let i = 0; i < 4; i++) {
+      const on = MAP[text[i]] ?? '';
+      SEGS.forEach(s => chars[i][s].classList.toggle('on', on.includes(s)));
+    }
+  }
+  display('FUKK');
+
+  /* ---------------- stars ---------------- */
+  const cvs = document.getElementById('stars');
+  const ctx = cvs.getContext('2d');
+  let stars = [];
+  function seedStars() {
+    const dpr = Math.min(devicePixelRatio || 1, 2);
+    cvs.width = innerWidth * dpr;
+    cvs.height = innerHeight * dpr;
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    const n = Math.round(innerWidth * innerHeight / 2600);
+    stars = [];
+    for (let i = 0; i < n; i++) {
+      // denser diagonal band — the Milky Way over the Tankwa
+      const band = Math.random() < .42;
+      let x = Math.random() * innerWidth, y = Math.random() * innerHeight;
+      if (band) {
+        const t = Math.random();
+        x = t * innerWidth * 1.25 - innerWidth * .12;
+        y = innerHeight * .82 - t * innerHeight * .72 + (Math.random() - .5) * innerHeight * .3;
+      }
+      stars.push({ x, y,
+        r: Math.random() < .06 ? 1.5 + Math.random() * .9 : .35 + Math.random() * .8,
+        a: .25 + Math.random() * .75,
+        p: Math.random() * Math.PI * 2,
+        s: .7 + Math.random() * 1.6 });
+    }
+  }
+  function drawStars(t) {
+    ctx.clearRect(0, 0, innerWidth, innerHeight);
+    for (const st of stars) {
+      const tw = reduce ? 1 : .72 + .28 * Math.sin(t * .0011 * st.s + st.p);
+      ctx.globalAlpha = st.a * tw;
+      ctx.fillStyle = st.r > 1.4 ? '#FFF6E4' : '#DFE6FF';
+      ctx.beginPath();
+      ctx.arc(st.x, st.y, st.r, 0, 6.284);
+      ctx.fill();
+    }
+    ctx.globalAlpha = 1;
+  }
+  seedStars();
+  addEventListener('resize', () => { seedStars(); drawStars(0); }, { passive: true });
+
+  /* ---------------- the sky: opens in the violet, ends in full day ----------------
+     [progress, skyTop, skyMid, skyBot, ridgeNear, ridgeMid, ridgeFar] */
+  /* Re-paced for a three-section page: full light now lands at .96 rather
+     than 1.00, so the dark-ink finale sits on warm ground for its whole
+     reveal instead of fading in over the violet. */
+  const KEYS = [
+    [0.00, [40,36,92],   [62,44,100],  [92,52,96],    [16,11,34],  [26,18,50],  [40,28,68]],
+    [0.26, [58,40,100],  [92,52,102],  [136,62,96],   [19,12,35],  [31,20,52],  [50,32,72]],
+    [0.48, [92,50,100],  [146,66,96],  [186,84,90],   [24,14,36],  [42,24,54],  [68,40,76]],
+    [0.66, [140,60,92],  [204,96,78],  [230,124,66],  [31,17,38],  [56,30,56],  [92,52,72]],
+    [0.82, [214,124,70], [242,176,92], [246,202,100], [46,24,46],  [86,46,60],  [130,72,68]],
+    [0.96, [239,223,198],[243,234,218],[236,222,196], [124,74,58], [176,122,80],[216,183,132]]
+  ];
+  const mix = (a, b, t) => `rgb(${Math.round(a[0]+(b[0]-a[0])*t)},${Math.round(a[1]+(b[1]-a[1])*t)},${Math.round(a[2]+(b[2]-a[2])*t)})`;
+  const VARS = ['--sky-top','--sky-mid','--sky-bot','--ridge-1','--ridge-2','--ridge-3'];
+
+  function paintSky(p) {
+    let i = 0;
+    while (i < KEYS.length - 2 && p > KEYS[i + 1][0]) i++;
+    const A = KEYS[i], B = KEYS[i + 1];
+    const t = clamp((p - A[0]) / (B[0] - A[0]), 0, 1);
+    const e = t * t * (3 - 2 * t);
+    for (let k = 0; k < 6; k++) root.style.setProperty(VARS[k], mix(A[k + 1], B[k + 1], e));
+  }
+
+  /* ---------------- rail clock: 05:58 → 07:40 ---------------- */
+  const railtime = document.getElementById('railtime');
+  const dot = document.getElementById('dot');
+  const START_MIN = 5 * 60 + 58, SPAN = 102;
+  function morningTime(p) {
+    const m = Math.round(START_MIN + SPAN * p);
+    return String(Math.floor(m / 60)).padStart(2, '0') + ':' + String(m % 60).padStart(2, '0');
+  }
+
+  /* ---------------- scroll ---------------- */
+  const clock = document.getElementById('clock');
+  let ticking = false;
+
+  function onScroll() {
+    const max = document.body.scrollHeight - innerHeight;
+    const p = max > 0 ? clamp(scrollY / max, 0, 1) : 0;
+
+    paintSky(p);
+    root.style.setProperty('--star-op',  clamp(1 - p / 0.24, 0, 1).toFixed(3));
+    root.style.setProperty('--sun-y',    clamp((p - 0.50) / 0.38, 0, 1).toFixed(3));
+    root.style.setProperty('--sun-glow', clamp((p - 0.46) / 0.13, 0, 1).toFixed(3));
+
+    // the wordmark rides the sky: white over the violet, brand blue on the cream
+    const lt = clamp((p - 0.52) / 0.21, 0, 1);
+    root.style.setProperty('--logo-word', mix([255,255,255], [10,79,209], lt * lt * (3 - 2 * lt)));
+
+    const t = morningTime(p);
+    railtime.textContent = t;
+    dot.style.top = (p * 100).toFixed(2) + '%';
+    if (wxHook) wxHook(p);
+
+    // the alarm goes off the moment you start scrolling, and stays
+    // off once it has handed over to the morning
+    const wake = clamp(scrollY / innerHeight, 0, 1);
+    if (wake < 0.45) {
+      display('FUKK');
+      clock.classList.toggle('is-ringing', scrollY > 6);
+    } else {
+      display(t.replace(':', ''));
+      clock.classList.remove('is-ringing');
+    }
+  }
+
+  addEventListener('scroll', () => {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(() => { onScroll(); ticking = false; });
+  }, { passive: true });
+
+  // tapping it on a touch screen sets it off too
+  clock.addEventListener('click', () => {
+    clock.classList.add('is-ringing');
+    setTimeout(() => { if (scrollY <= 6) clock.classList.remove('is-ringing'); }, 1400);
+  });
+
+  /* ---------------- ambient loop ---------------- */
+  function frame(t) { drawStars(t); requestAnimationFrame(frame); }
+  if (reduce) drawStars(0); else requestAnimationFrame(frame);
+
+  /* ---------------- countdown to the gun ---------------- */
+  const GUN = new Date('2026-08-21T05:00:00+02:00').getTime();
+  const cdEls = { d: 'cd-d', h: 'cd-h', m: 'cd-m', s: 'cd-s' };
+  function tickCountdown() {
+    let diff = GUN - Date.now();
+    const box = document.getElementById('cd');
+    if (diff <= 0) { box.innerHTML = '<div><b>GO</b><span>It has started</span></div>'; return; }
+    diff = Math.floor(diff / 1000);
+    const vals = {
+      d: Math.floor(diff / 86400), h: Math.floor(diff % 86400 / 3600),
+      m: Math.floor(diff % 3600 / 60), s: diff % 60
+    };
+    for (const k in cdEls) {
+      const el = document.getElementById(cdEls[k]);
+      if (el) el.textContent = String(vals[k]).padStart(2, '0');
+    }
+  }
+  tickCountdown();
+  setInterval(tickCountdown, 1000);
+
+  /* ---------------- the cold ----------------
+     Mean air temperature by hour of day, 14–28 August across 2015–2025
+     (ERA5 reanalysis via Open-Meteo, 325 station-days at 33.13°S 19.77°E).
+     Plotted over the full day against a zero baseline: across the run
+     window alone the spread is 0.4°C, which only reads as a shape if you
+     truncate the axis — so the day carries the chart and the run window
+     is banded inside it. */
+  const WX = [8.4,8.0,7.9,7.4,7.1,7.0,6.7,6.5,7.1,9.3,11.5,13.4,
+              15.1,16.4,17.3,17.7,17.4,16.5,14.4,12.5,11.2,10.2,9.5,9.0];
+  const VW = 320, L = 3, R = 3, TOP = 12, BASE = 80, TMAX = 20;
+  const XX = h => L + (h / 23) * (VW - L - R);
+  const YY = t => BASE - (t / TMAX) * (BASE - TOP);
+  const tempAt = hf => {
+    const a = Math.floor(hf) % 24, b = (a + 1) % 24, f = hf - Math.floor(hf);
+    return WX[a] + (WX[b] - WX[a]) * f;
+  };
+  const hhmm = hf => {
+    const m = Math.round(hf * 60) % 1440;
+    return String(Math.floor(m / 60)).padStart(2,'0') + ':' + String(m % 60).padStart(2,'0');
+  };
+
+  const svg = document.getElementById('wx-curve');
+  const wxT = document.getElementById('wx-t'), wxAt = document.getElementById('wx-at');
+  let path = '';
+  for (let h = 0; h < 24; h++) path += (h ? 'L' : 'M') + XX(h).toFixed(1) + ' ' + YY(WX[h]).toFixed(1);
+  // var() is unreliable inside SVG presentation attributes — these go via style
+  svg.innerHTML =
+    `<rect x="${XX(5).toFixed(1)}" y="${TOP}" width="${(XX(7.18)-XX(5)).toFixed(1)}" height="${BASE-TOP}"
+           fill="currentColor" opacity=".10"/>
+     <path d="${path}L${XX(23).toFixed(1)} ${BASE}L${XX(0).toFixed(1)} ${BASE}Z"
+           style="fill:var(--gold)" opacity=".12"/>
+     <line x1="${L}" y1="${BASE}" x2="${VW-R}" y2="${BASE}" stroke="currentColor" opacity=".28" stroke-width="1"/>
+     <path d="${path}" style="fill:none;stroke:var(--gold)" stroke-width="2"
+           stroke-linejoin="round" stroke-linecap="round"/>
+     <line x1="${XX(7).toFixed(1)}" y1="${YY(WX[7]).toFixed(1)}" x2="${XX(7).toFixed(1)}" y2="${BASE}"
+           style="stroke:var(--gold)" stroke-width="1.5" opacity=".55"/>
+     <circle id="wx-dot" cx="${XX(6).toFixed(1)}" cy="${YY(WX[6]).toFixed(1)}" r="3.4"
+             style="fill:var(--cream);stroke:var(--sky-mid)" stroke-width="2"/>
+     ${[0,6,12,18].map(h=>`<text x="${XX(h).toFixed(1)}" y="${BASE+11}" fill="currentColor"
+           font-size="6.5" letter-spacing="1" opacity=".5"
+           font-family="ui-monospace,Menlo,monospace">${String(h).padStart(2,'0')}h</text>`).join('')}`;
+  const wxDot = document.getElementById('wx-dot');
+
+  let wxScrollH = 5.97, wxHover = null;
+  function paintWx() {
+    const hf = wxHover ?? wxScrollH;
+    wxT.textContent = tempAt(hf).toFixed(1);
+    wxAt.textContent = hhmm(hf);
+    wxDot.setAttribute('cx', XX(hf).toFixed(1));
+    wxDot.setAttribute('cy', YY(tempAt(hf)).toFixed(1));
+  }
+  // hovering reads the whole day off the curve; leaving hands it back to the scroll
+  svg.addEventListener('pointermove', e => {
+    const b = svg.getBoundingClientRect();
+    const f = ((e.clientX - b.left) / b.width * VW - L) / (VW - L - R);
+    wxHover = clamp(f, 0, 1) * 23;
+    paintWx();
+  });
+  svg.addEventListener('pointerleave', () => { wxHover = null; paintWx(); });
+
+  // var, not let — the scroll listener is registered before this block runs, so
+  // the hook must already exist (as undefined) rather than sit in the dead zone
+  var wxHook = p => { wxScrollH = (START_MIN + SPAN * p) / 60; paintWx(); };
+
+  document.getElementById('wx-table').innerHTML =
+    '<table><caption>Mean August air temperature by hour, Tierkloof</caption><tbody>' +
+    WX.map((t,h)=>`<tr><th scope="row">${String(h).padStart(2,'0')}:00</th><td>${t} °C</td></tr>`).join('') +
+    '</tbody></table>';
+
+  /* ---------------- reveals ---------------- */
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.15, rootMargin: '0px 0px -6% 0px' });
+  document.querySelectorAll('.rv').forEach(el => io.observe(el));
+
+  onScroll();
+})();
+</script>
