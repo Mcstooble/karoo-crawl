@@ -3,7 +3,7 @@
 A single-page, self-contained brand site for the Karoo Crawl: a dawn run at
 Tierkloof, in the Swartruggens above the Tankwa plains, Western Cape.
 
-**Friday 21 August 2026, 05:00** — two hours and eleven minutes before sunrise.
+**Saturday 22 August 2026, 05:00** — two hours and ten minutes before sunrise.
 
 ## What it is
 

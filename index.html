@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Karoo Crawl — Tierkloof, 21 August 2026</title>
+<title>Karoo Crawl — Tierkloof, 22 August 2026</title>
 
 <style>
 /* ============================================================
@@ -540,7 +540,7 @@ dl.specs{ margin: 1.6rem 0 0; display: grid; gap: 0; }
       <p class="eyebrow">Tierkloof &nbsp;·&nbsp; 33°S &nbsp;·&nbsp; Western Cape</p>
 
       <button class="clock" id="clock" type="button"
-              aria-label="Alarm clock reading FU colon KK on a Friday morning. Hover or scroll to set it off.">
+              aria-label="Alarm clock reading FU colon KK on a Saturday morning. Hover or scroll to set it off.">
         <span class="clock__art">
           <svg class="clock__svg" viewBox="0 0 1400 640" role="presentation">
             <!-- ring waves -->
@@ -563,7 +563,7 @@ dl.specs{ margin: 1.6rem 0 0; display: grid; gap: 0; }
             <rect class="screen-fill" x="320" y="232" width="830" height="341"/>
           </svg>
           <span class="screen">
-            <span class="clock__day">FRI</span>
+            <span class="clock__day">SAT</span>
             <span class="lcd" id="lcd"></span>
           </span>
         </span>
@@ -584,8 +584,8 @@ dl.specs{ margin: 1.6rem 0 0; display: grid; gap: 0; }
         <p class="lede">Nobody hands you a distance. You stand around in the dark next to the bus, announce a number you cannot back up, and then run until your legs start filing complaints. There is no line to cross. You are done when you are done.</p>
         <dl class="specs">
           <div><dt>Place</dt><dd>Tierkloof, Swartruggens · Western Cape</dd></div>
-          <div><dt>Date</dt><dd>Friday 21 August 2026</dd></div>
-          <div><dt>Gun</dt><dd>05:00 — <em>2h 11m before sunrise</em></dd></div>
+          <div><dt>Date</dt><dd>Saturday 22 August 2026</dd></div>
+          <div><dt>Gun</dt><dd>05:00 — <em>2h 10m before sunrise</em></dd></div>
           <div><dt>Field</dt><dd>Ten. Allegedly</dd></div>
           <div><dt>Distance</dt><dd><em>Yours.</em> Wildly overstated at the start</dd></div>
           <div><dt>Finish</dt><dd>The second you start walking</dd></div>
@@ -821,7 +821,7 @@ dl.specs{ margin: 1.6rem 0 0; display: grid; gap: 0; }
   if (reduce) drawStars(0); else requestAnimationFrame(frame);
 
   /* ---------------- countdown to the gun ---------------- */
-  const GUN = new Date('2026-08-21T05:00:00+02:00').getTime();
+  const GUN = new Date('2026-08-22T05:00:00+02:00').getTime();
   const cdEls = { d: 'cd-d', h: 'cd-h', m: 'cd-m', s: 'cd-s' };
   function tickCountdown() {
     let diff = GUN - Date.now();
@@ -867,7 +867,7 @@ dl.specs{ margin: 1.6rem 0 0; display: grid; gap: 0; }
   for (let h = 0; h < 24; h++) path += (h ? 'L' : 'M') + XX(h).toFixed(1) + ' ' + YY(WX[h]).toFixed(1);
   // var() is unreliable inside SVG presentation attributes — these go via style
   svg.innerHTML =
-    `<rect x="${XX(5).toFixed(1)}" y="${TOP}" width="${(XX(7.18)-XX(5)).toFixed(1)}" height="${BASE-TOP}"
+    `<rect x="${XX(5).toFixed(1)}" y="${TOP}" width="${(XX(7.167)-XX(5)).toFixed(1)}" height="${BASE-TOP}"
            fill="currentColor" opacity=".10"/>
      <path d="${path}L${XX(23).toFixed(1)} ${BASE}L${XX(0).toFixed(1)} ${BASE}Z"
            style="fill:var(--gold)" opacity=".12"/>
